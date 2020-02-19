@@ -1,0 +1,143 @@
+#buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#overlay{
+    z-index: 2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: blue;
+    display: none;
+}
+#edit{
+    z-index: 4;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    display: none;
+    border: 5px ridge green;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+}
+#create{
+    padding: 12px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+#editItem{
+    z-index: 4;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    display: none;
+    border: 5px ridge green;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+}
+#createPerson{
+    z-index: 4;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    display: none;
+    border: 5px ridge green;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+}
+#createItm{
+    z-index: 4;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    display: none;
+    border: 5px ridge green;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+}
+#readCharacter{
+    z-index: 4;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    display: none;
+    border: 5px ridge green;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+}
+#charUp{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#charDown{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#raceUp{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#raceDown{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#classUp{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#classDown{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

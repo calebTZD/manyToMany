@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Many to many</title>
+    <link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+
+    $("#next").click(function(){
+      index += count;
+      renderTable(index, count);
+    });
+    $("#prev").click(function(){
+      index -= count;
+      if(index < 0){index = 0;}
+      renderTable(index, count);
+    });
+
+
+    renderTable(index, count);
+
+  });
+  const count = 25;
+  var index = 0;
+  var characters = [];
+  var items = [];
+  // TODO: fix global id
+  var curId = 0;
+  var sortedByName = true;
+  var sortedByClass = false;
+  var sortedByRace = false;
+
+  function create_UUID(){
+      var dt = new Date().getTime();
+      var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = (dt + Math.random()*16)%16 | 0;
+          dt = Math.floor(dt/16);
+          return (c=='x' ? r :(r&0x3|0x8));
+      });
+      uuid = uuid.replace("-","3");
+      return uuid;
+  }
+
+  function renderEdit(editIdx){
+    $("#overlay").show();
+    $("#edit").show();
+    var character = characters[editIdx];
+    $("#pname").val(character.pname);
+    $("#race").val(character.race);
+    $("#guild").val(character.guild);
+    curId = character.id
+  }
+  function renderItemEdit(ieditIdx){
+    $("#overlay").show();
+    $("#editItem").show();
+    var item = items[ieditIdx];
+    $("#iname").val(item.iname);
+    curId = item.id;
+  }
+  function closeEdit(){
+    $("#overlay").hide();
+    $("#edit").hide();
+    $("#editItem").hide();
+    $("#createPerson").hide();
+    $("#createItm").hide();
+  }
+  function save(){
+    let saveobj = {
+      'pname': $("#pname").val(),
+      'race': $("#race").val(),
+      'guild': $("#guild").val(),
+      'id': curId
+    }
+    $.post("/caleb/api.php/character/update/", saveobj, function(data, status){
+      if(status == "success"){
+        $("#message").val("Saved");
+        renderTable(index, count);
+        closeEdit();
+      }
+    });
+  }
+  function saveItem(){
+
+    $.getJSON("/caleb/api.php/item/update/?iname="+$("#iname").val()+"&id="+curId, function(data, status){
+      if(status == "success"){
+        $("#imessage").val("Saved");
+        renderItemTable();
+        closeEdit();
+      }
+    });
+  }
+
+  function deleteCharacter(id){
+    $.getJSON("/caleb/api.php/character/delete/?id="+id, function(data,status){
+      if(status == "success"){
+        renderTable(index, count);
+      }
+    });
+  }
+  function deleteItem(id){
+    $.getJSON("/caleb/api.php/item/delete/?id="+id, function(data, status){
+      if(status == "success"){
+        renderItemTable();
+      }
+    });
+  }
+  function createCharacter(){
+    $("#overlay").show();
+    $("#createPerson").show();
+    curId = create_UUID();
+  }
+  function createItm(){
+    $("#overlay").show();
+    $("#createItm").show();
+    curId = create_UUID();
+  }
+  function create(){
+    let saveobj = {
+      'pname': $("#cpname").val(),
+      'race': $("#crace").val(),
+      'guild': $("#cguild").val(),
+      'id': curId
+    }
+    $.post("/caleb/api.php/character/create/", saveobj, function(data, status){
+      if(status == "success"){
+        $("#message").val("Saved");
+        renderTable(index, count);
+        closeEdit();
+      }
+    });
+  }
+  function createItem(){
+    $.getJSON("/caleb/api.php/item/create/?iname="+$("#ciname").val()+"&id="+curId, function(data, status){
+      if(status == "success"){
+        $("#imessage").val("Saved");
+        renderItemTable();
+        closeEdit();
+      }
+    });
+  }
+  function readCharacter(idx ,id){
+    $.getJSON("/caleb/api.php/character/read/?id="+id, function(data,status){
+      if(status == "success"){
+        $("#rpname").text('Name: '+characters[idx].pname);
+        $("#rrace").text('Race: '+characters[idx].race);
+        $("#rguild").text('Class: '+characters[idx].guild);
+        var items = 'Items: ';
+        $.each(data, function(index, item){
+          if(item == null){
+            return false;
+          }
+          items += '<label>'+item.iname+' </label>';
+        });
+        $("#readCharacter").append(items);
+        $('#readCharacter').show();
+        $("#overlay").show();
+      }
+    });
+  }
+
+  function sortByName(){
+    if(sortedByName == true){
+      $("#charUp").hide();
+      $("#charDown").show();
+      $("charDown").css("display", "inline-block")
+      $("#raceUp").hide();
+      $("#raceDown").hide();
+      $("#classUp").hide();
+      $("#classDown").hide();
+      sortedByName = false;
+      sortedByRace = false;
+      sortedByClass = false;
+      
+    }
+    else{
+      $("#charUp").show();
+      $("#charDown").hide();
+      $("#raceUp").hide();
+      $("#raceDown").hide();
+      $("#classUp").hide();
+      $("#classDown").hide();
+      sortedByName = true;
+      sortedByRace = false;
+      sortedByClass = false;
+      renderTable(0, count);
+    }
+  }
+  
+  function sortByRace(){
+    if(sortedByRace == true){
+      $("#charUp").hide();
+      $("#charDown").hide();
+      $("#raceUp").hide();
+      $("#raceDown").show();
+      $("#classUp").hide();
+      $("#classDown").hide();
+      sortedByName = false;
+      sortedByRace = false;
+      sortedByClass = false;
+      
+    }
+    else{
+      $("#charUp").hide();
+      $("#charDown").hide();
+      $("#raceUp").show();
+      $("#raceDown").hide();
+      $("#classUp").hide();
+      $("#classDown").hide();
+      sortedByName = false;
+      sortedByRace = true;
+      sortedByClass = false;
+    }
+  }
+  
+  function sortByClass(){
+    
+  }
+
+  function renderTable(idx, cnt){
+    
+    $.getJSON("/caleb/api.php/character/readCharacters/?idx="+idx+"&cnt="+ cnt , function(data, status){
+          if (status == "success"){
+            characters = data;
+              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
+              $.each (data, function(index, item){
+                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
+              });
+              $('#ctab').html(rows);
+              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
+          }
+      });
+      $('#buttonWrapper').show();
+      $('#create').show();
+      $('#createItem').hide();
+      $('#editItem').hide();
+      $('#createPerson').hide();
+      $('#createItm').hide();
+      $('#readCharacter').hide();
+      $("#charDown").hide();
+      $("#raceUp").hide();
+      $("#raceDown").hide();
+      $("#classUp").hide();
+      $("#classDown").hide();
+    }
+  function renderItemTable(){
+    $.getJSON("/caleb/api.php/item/readItems" , function(data,status){
+      if(status == "success"){
+        items = data;
+        var rows = '<tr><th>Items</th></tr>';
+        $.each (data, function(index, item){
+          rows += '<tr><td>' + item.iname +'</td><td><button onclick="renderItemEdit('+ index +')">Edit</button></td><td><button onclick="deleteItem('+ item.id +')">delete</button></td></tr>';
+        });
+        $('#createItem').show();
+        $('#buttonWrapper').hide();
+        $('#create').hide();
+        $('#ctab').html(rows);
+      }
+    });
+  }
+  function renderSearchTable(idx, cnt){
+    $.getJSON("/caleb/api.php/character/search/?idx="+idx+"&cnt="+cnt+"&pstr="+$('#searchbar').val() , function(data, status){
+        if (status == "success"){
+          characters = data;
+          var rows = '<tr><th>Name</th><th>Race</th><th>Class</th><th>Edit</th></tr>';
+          $.each (data, function(index, item){
+          rows += '<tr><td>' + item.pname + '</td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
+        });
+        $('#ctab').html(rows);
+        $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
+       }
+    });
+  }
+</script>
+</head>
+<body>
+  <button onclick="renderItemTable()">Items</button>
+  <button onclick="renderTable(index, count)">Characters</button>
+  <div id="search">
+    <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
+  </div>
+  <table id="ctab" style="width:100%">
+    
+  </table>
+  <div id="create">
+    <button onclick="createCharacter()">Create character</button>
+  </div>
+  <div id="createItem">
+    <button onclick="createItm()">Create Item</button>
+  </div>
+  <div id="buttonWrapper">
+    <button type="button" id="prev">Previous</button>
+    <label id="itemNumbers"></label>
+    <button type="button" id="next">Next</button> 
+  </div>
+  <div id="overlay">
+
+  </div>
+  <div id="edit">
+    <input type="text" id="pname">
+    
+    <input type="text" id="race">
+   
+    <input type="text" id="guild">
+    
+    <button onclick="closeEdit()">Close</button>
+    <button onclick="save()">Save</button>
+    <label id="message"></label>
+  </div>
+  <div id="editItem">
+    <input type="text" id="iname">
+    <button onclick="closeEdit()">Close</button>
+    <button onclick="saveItem()">Save</button>
+    <label id="imessage"></label>
+  </div>
+  <div id="createPerson">
+    <input type="text" id="cpname">
+    
+    <input type="text" id="crace">
+   
+    <input type="text" id="cguild">
+    
+    <button onclick="closeEdit()">Close</button>
+    <button onclick="create()">Save</button>
+    <label id="message"></label>
+  </div>
+  <div id="createItm">
+    <input type="text" id="ciname">
+    <button onclick="closeEdit()">Close</button>
+    <button onclick="createItem()">Save</button>
+    <label id="imessage"></label>
+  </div>
+  <div id="readCharacter">
+    <label id="rpname">asdf</label>
+    <label id="rrace">fasd</label>
+    <label id="rguild">fdsa</label>
+    
+  </div>
+</body>
+</html>

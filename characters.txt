@@ -1,0 +1,1072 @@
+{"name": "Sir Anthony Absolute", "race": "teifling", "class": "thief", "items": ["crossbow", "mace", "bow"]}
+{"name": "Nick Adams", "race": "human", "class": "ranger", "items": ["bracers", "dagger", "spear", "bag", "bow"]}
+{"name": "Parson Adams", "race": "human", "class": "warrior", "items": ["familiar", "axe", "pauldran"]}
+{"name": "Frankie Addams", "race": "orc", "class": "warrior", "items": ["pauldran", "axe", "staff"]}
+{"name": "Anthony Adverse", "race": "dragonborn", "class": "warrior", "items": ["hammer", "dagger", "mace"]}
+{"name": "Captain Ahab", "race": "bugbear", "class": "druid", "items": ["ring", "pauldran", "bag"]}
+{"name": "Albertine", "race": "dwarf", "class": "necromancer", "items": ["axe", "hammer", "bracers", "flail", "amulet"]}
+{"name": "Alceste", "race": "bugbear", "class": "warrior", "items": ["familiar", "bracers", "ring", "dagger"]}
+{"name": "Algernon", "race": "dwarf", "class": "sorcerer", "items": ["pauldran", "food", "bag", "hammer"]}
+{"name": "Ali Baba", "race": "goblin", "class": "barbarian", "items": ["boots", "hammer", "pauldran", "amulet"]}
+{"name": "Squire Allworthy", "race": "orc", "class": "ranger", "items": ["axe", "sling", "hammer", "amulet", "bag"]}
+{"name": "Count Almaviva", "race": "dwarf", "class": "ranger", "items": ["mace", "helmet", "food", "axe"]}
+{"name": "The Alvings", "race": "halfling", "class": "warrior", "items": ["spear", "helmet", "dagger", "shield", "axe"]}
+{"name": "Amaryllis", "race": "human", "class": "cleric", "items": ["pauldran", "mace", "rope", "helmet", "familiar"]}
+{"name": "Ananse", "race": "uruk", "class": "sorcerer", "items": ["pauldran", "bag", "boots"]}
+{"name": "Pamela Andrews", "race": "elve", "class": "warrior", "items": ["rope", "bracers", "familiar", "ring", "helmet"]}
+{"name": "Angelica", "race": "teifling", "class": "wizard", "items": ["breasplate", "food", "potion"]}
+{"name": "Harry Angstrom", "race": "elve", "class": "warrior", "items": ["helmet", "bow", "axe"]}
+{"name": "Mr. and Mrs. Antrobus", "race": "bugbear", "class": "cleric", "items": ["rope", "helmet", "spear", "bow"]}
+{"name": "Aramis", "race": "dwarf", "class": "barbarian", "items": ["familiar", "rope", "dagger", "pauldran"]}
+{"name": "Isabel Archer", "race": "teifling", "class": "druid", "items": ["crossbow", "familiar", "boots"]}
+{"name": "Enoch Arden", "race": "bugbear", "class": "necromancer", "items": ["ring", "food", "pauldran"]}
+{"name": "The Artful Dodger", "race": "goblin", "class": "cleric", "items": ["dagger", "ring", "potion", "staff"]}
+{"name": "Gustave von Aschenbach", "race": "orc", "class": "wizard", "items": ["pauldran", "ring", "crossbow", "axe", "flail"]}
+{"name": "Lady Brett Ashley", "race": "bugbear", "class": "necromancer", "items": ["spear", "trident", "rope"]}
+{"name": "Athos", "race": "dragonborn", "class": "cleric", "items": ["trident", "shield", "amulet", "potion", "hammer"]}
+{"name": "Ayesha", "race": "goblin", "class": "barbarian", "items": ["boots", "hammer", "food", "bag"]}
+{"name": "Dr. Aziz", "race": "dwarf", "class": "cleric", "items": ["breasplate", "bracers", "spear", "rope"]}
+{"name": "Baba-Yaga", "race": "bugbear", "class": "wizard", "items": ["sling", "familiar", "bow"]}
+{"name": "Babar", "race": "elve", "class": "druid", "items": ["mace", "rope", "breasplate", "food"]}
+{"name": "Bilbo Baggins", "race": "teifling", "class": "ranger", "items": ["helmet", "sling", "amulet"]}
+{"name": "Frodo Baggins", "race": "halfling", "class": "ranger", "items": ["shield", "helmet", "bag", "trident", "sword"]}
+{"name": "Harry Bailly", "race": "goblin", "class": "paladin", "items": ["crossbow", "food", "bracers"]}
+{"name": "David Balfour", "race": "dragonborn", "class": "druid", "items": ["helmet", "dagger", "familiar", "bracers", "amulet"]}
+{"name": "Mr. Barkis", "race": "uruk", "class": "thief", "items": ["food", "staff", "flail"]}
+{"name": "Jake Barnes", "race": "halfling", "class": "sorcerer", "items": ["sling", "food", "bracers"]}
+{"name": "Lily Bart", "race": "dwarf", "class": "sorcerer", "items": ["familiar", "crossbow", "flail", "pauldran"]}
+{"name": "Yevgeny Bazarov", "race": "bugbear", "class": "wizard", "items": ["breasplate", "crossbow", "potion"]}
+{"name": "Adam Bede", "race": "halfling", "class": "sorcerer", "items": ["flail", "ring", "familiar"]}
+{"name": "Belial", "race": "uruk", "class": "warrior", "items": ["amulet", "familiar", "axe"]}
+{"name": "Bennet family", "race": "goblin", "class": "paladin", "items": ["staff", "amulet", "shield", "flail", "potion"]}
+{"name": "Bertram family", "race": "bugbear", "class": "paladin", "items": ["sling", "sword", "amulet"]}
+{"name": "Pierre Bezukhov", "race": "dragonborn", "class": "necromancer", "items": ["spear", "mace", "bow", "food"]}
+{"name": "Big Brother", "race": "human", "class": "wizard", "items": ["dagger", "food", "mace", "sling"]}
+{"name": "Big Daddy", "race": "teifling", "class": "sorcerer", "items": ["axe", "dagger"]}
+{"name": "Rupert Birkin", "race": "uruk", "class": "cleric", "items": ["food", "mace", "pauldran"]}
+{"name": "Anthony Blanche", "race": "elve", "class": "ranger", "items": ["sword", "mace", "bracers", "bow", "bag"]}
+{"name": "Leopold Bloom", "race": "uruk", "class": "barbarian", "items": ["dagger", "bow", "mace"]}
+{"name": "Molly Bloom", "race": "orc", "class": "thief", "items": ["bow", "dagger", "bag"]}
+{"name": "Bluebeard", "race": "elve", "class": "ranger", "items": ["breasplate", "dagger"]}
+{"name": "Bobbsey Twins", "race": "orc", "class": "warrior", "items": ["breasplate", "dagger", "axe", "spear", "boots"]}
+{"name": "William Boldwood", "race": "bugbear", "class": "sorcerer", "items": ["bag", "dagger", "helmet", "amulet", "spear"]}
+{"name": "Bolkonsky family", "race": "teifling", "class": "warrior", "items": ["sling", "flail", "boots"]}
+{"name": "James Bond", "race": "dragonborn", "class": "paladin", "items": ["bow", "sword", "rope", "crossbow"]}
+{"name": "Boojum", "race": "human", "class": "druid", "items": ["trident", "crossbow", "hammer"]}
+{"name": "The Borrowers", "race": "bugbear", "class": "thief", "items": ["dagger", "bracers", "crossbow"]}
+{"name": "Josiah Bounderby", "race": "elve", "class": "thief", "items": ["bracers", "dagger", "breasplate", "spear", "axe"]}
+{"name": "Emma Bovary", "race": "dwarf", "class": "paladin", "items": ["axe", "spear", "familiar"]}
+{"name": "Sally Bowles", "race": "halfling", "class": "barbarian", "items": ["flail", "breasplate", "amulet", "familiar", "trident"]}
+{"name": "Lady Augusta Bracknell", "race": "human", "class": "warrior", "items": ["rope", "food", "amulet", "dagger"]}
+{"name": "Bradamante", "race": "bugbear", "class": "wizard", "items": ["spear", "breasplate", "ring", "staff"]}
+{"name": "Matthew Bramble", "race": "uruk", "class": "sorcerer", "items": ["crossbow", "axe", "amulet", "sling"]}
+{"name": "Colonel Brandon", "race": "dwarf", "class": "cleric", "items": ["dagger", "sword", "potion"]}
+{"name": "Dave Brandstetter", "race": "human", "class": "sorcerer", "items": ["shield", "hammer", "crossbow"]}
+{"name": "Gudrun Brangwen", "race": "dragonborn", "class": "necromancer", "items": ["flail", "food", "rope"]}
+{"name": "Ursula Brangwen", "race": "uruk", "class": "sorcerer", "items": ["pauldran", "sling", "sword"]}
+{"name": "Brer Rabbit", "race": "goblin", "class": "paladin", "items": ["helmet", "flail", "dagger"]}
+{"name": "Brighella", "race": "teifling", "class": "warrior", "items": ["bow", "helmet", "potion", "pauldran"]}
+{"name": "Hans Brinker", "race": "human", "class": "necromancer", "items": ["pauldran", "axe"]}
+{"name": "Lily Briscoe", "race": "uruk", "class": "paladin", "items": ["trident", "dagger", "axe"]}
+{"name": "Dorothea Brooke", "race": "elve", "class": "sorcerer", "items": ["mace", "dagger", "staff", "bag"]}
+{"name": "Father Brown", "race": "bugbear", "class": "barbarian", "items": ["pauldran", "bag", "sword"]}
+{"name": "Bruin", "race": "elve", "class": "wizard", "items": ["familiar", "food", "shield", "bag"]}
+{"name": "Tom and Daisy Buchanan", "race": "goblin", "class": "thief", "items": ["amulet", "spear", "food"]}
+{"name": "Inspector Bucket", "race": "halfling", "class": "ranger", "items": ["bracers", "sling", "trident", "boots", "rope"]}
+{"name": "Buend\u00eda family", "race": "uruk", "class": "druid", "items": ["mace", "boots", "ring", "hammer"]}
+{"name": "Mr. Bumble", "race": "human", "class": "sorcerer", "items": ["ring", "boots", "spear"]}
+{"name": "Natty Bumppo", "race": "orc", "class": "sorcerer", "items": ["sling"]}
+{"name": "Bunter", "race": "orc", "class": "warrior", "items": ["staff", "ring", "pauldran", "bracers"]}
+{"name": "Billy Bunter", "race": "teifling", "class": "ranger", "items": ["helmet", "rope", "potion", "food", "boots"]}
+{"name": "Rhett Butler", "race": "teifling", "class": "sorcerer", "items": ["ring", "mace", "crossbow", "breasplate", "bag"]}
+{"name": "Camille", "race": "bugbear", "class": "paladin", "items": ["breasplate", "staff", "spear", "bag", "bracers"]}
+{"name": "Don Camillo", "race": "orc", "class": "druid", "items": ["staff", "ring", "amulet", "sling"]}
+{"name": "Albert Campion", "race": "elve", "class": "warrior", "items": ["familiar", "mace", "amulet"]}
+{"name": "Capitano", "race": "teifling", "class": "barbarian", "items": ["familiar", "amulet", "boots"]}
+{"name": "Philip Carey", "race": "halfling", "class": "paladin", "items": ["trident", "amulet", "boots", "familiar"]}
+{"name": "Nick Carraway", "race": "bugbear", "class": "sorcerer", "items": ["staff", "mace", "rope"]}
+{"name": "Richard Carstone", "race": "halfling", "class": "wizard", "items": ["familiar", "food", "axe", "sword"]}
+{"name": "Nick Carter", "race": "dwarf", "class": "barbarian", "items": ["crossbow", "trident", "staff"]}
+{"name": "Sydney Carton", "race": "dwarf", "class": "warrior", "items": ["sling", "potion", "axe"]}
+{"name": "Edward Casaubon", "race": "halfling", "class": "wizard", "items": ["bow", "axe"]}
+{"name": "Hans Castorp", "race": "elve", "class": "thief", "items": ["bag", "bow", "boots", "familiar"]}
+{"name": "Cathbad", "race": "dwarf", "class": "wizard", "items": ["bag", "amulet", "axe", "breasplate"]}
+{"name": "Holden Caulfield", "race": "teifling", "class": "warrior", "items": ["helmet", "breasplate", "boots", "familiar", "staff"]}
+{"name": "Olive Chancellor", "race": "dwarf", "class": "sorcerer", "items": ["potion", "sword", "bag", "mace"]}
+{"name": "Cheshire Cat", "race": "human", "class": "barbarian", "items": ["breasplate", "bracers", "food", "sword"]}
+{"name": "Roger Chillingworth", "race": "bugbear", "class": "wizard", "items": ["mace", "bag", "axe"]}
+{"name": "Chingachgook", "race": "human", "class": "paladin", "items": ["spear", "mace", "bow", "axe"]}
+{"name": "Mr. Chips", "race": "teifling", "class": "wizard", "items": ["trident", "shield", "mace"]}
+{"name": "Anna Christie", "race": "uruk", "class": "cleric", "items": ["food", "rope", "mace", "bag", "staff"]}
+{"name": "Martin Chuzzlewit", "race": "human", "class": "druid", "items": ["shield", "staff", "bow"]}
+{"name": "John Claggart", "race": "dragonborn", "class": "necromancer", "items": ["hammer", "staff"]}
+{"name": "Angel Clare", "race": "uruk", "class": "wizard", "items": ["breasplate", "boots", "familiar", "bow", "ring"]}
+{"name": "Claudine", "race": "halfling", "class": "ranger", "items": ["rope", "ring", "crossbow"]}
+{"name": "Arthur Clennam", "race": "bugbear", "class": "cleric", "items": ["potion", "bracers", "flail"]}
+{"name": "Humphry Clinker", "race": "bugbear", "class": "sorcerer", "items": ["bow", "dagger", "pauldran"]}
+{"name": "Columbine", "race": "elve", "class": "sorcerer", "items": ["axe", "hammer", "boots", "mace", "food"]}
+{"name": "Conan the Barbarian", "race": "bugbear", "class": "wizard", "items": ["familiar", "helmet", "breasplate", "dagger"]}
+{"name": "Conla\u00ed", "race": "dragonborn", "class": "cleric", "items": ["bow", "boots", "flail"]}
+{"name": "David Copperfield", "race": "dragonborn", "class": "warrior", "items": ["helmet", "mace", "bow"]}
+{"name": "Richard Cory", "race": "human", "class": "thief", "items": ["pauldran", "bow", "bracers"]}
+{"name": "Corydon", "race": "uruk", "class": "sorcerer", "items": ["spear", "potion", "trident"]}
+{"name": "Mother Courage", "race": "human", "class": "thief", "items": ["sword", "bow", "crossbow"]}
+{"name": "Ichabod Crane", "race": "elve", "class": "sorcerer", "items": ["familiar", "breasplate"]}
+{"name": "Cratchit family", "race": "goblin", "class": "ranger", "items": ["bag", "staff", "boots", "familiar", "dagger"]}
+{"name": "Janie Crawford", "race": "halfling", "class": "cleric", "items": ["flail", "boots", "axe", "hammer"]}
+{"name": "Gerald Crich", "race": "dwarf", "class": "barbarian", "items": ["potion", "bow", "staff"]}
+{"name": "Guy Crouchback", "race": "elve", "class": "barbarian", "items": ["mace", "amulet", "bracers", "pauldran"]}
+{"name": "Robinson Crusoe", "race": "human", "class": "sorcerer", "items": ["breasplate", "staff", "boots", "bow"]}
+{"name": "C\u00fa Chulainn", "race": "dwarf", "class": "cleric", "items": ["spear", "bow", "bracers", "rope"]}
+{"name": "Sergeant Cuff", "race": "elve", "class": "druid", "items": ["bag", "hammer", "bow", "mace"]}
+{"name": "Cun\u00e9gonde", "race": "elve", "class": "warrior", "items": ["shield", "bag", "pauldran", "ring"]}
+{"name": "D'Artagnan", "race": "elve", "class": "barbarian", "items": ["food", "rope", "helmet"]}
+{"name": "Edmond Dant\u00e8s", "race": "dwarf", "class": "sorcerer", "items": ["shield", "flail", "trident", "breasplate"]}
+{"name": "Fitzwilliam Darcy", "race": "halfling", "class": "warrior", "items": ["staff", "bag", "amulet"]}
+{"name": "Charles Darnay", "race": "bugbear", "class": "wizard", "items": ["breasplate", "sling", "crossbow", "familiar", "rope"]}
+{"name": "Dashwood family", "race": "goblin", "class": "sorcerer", "items": ["rope", "trident", "spear", "dagger", "crossbow"]}
+{"name": "Stephen Dedalus", "race": "goblin", "class": "warrior", "items": ["sword", "food", "flail", "bag"]}
+{"name": "Lady Honoria Dedlock", "race": "uruk", "class": "sorcerer", "items": ["ring", "staff", "trident"]}
+{"name": "Madame Defarge", "race": "orc", "class": "paladin", "items": ["bag", "flail", "ring", "food"]}
+{"name": "Deirdre", "race": "teifling", "class": "sorcerer", "items": ["hammer", "rope", "ring", "breasplate"]}
+{"name": "Jean Des Esseintes", "race": "uruk", "class": "ranger", "items": ["rope", "bow", "helmet"]}
+{"name": "Mr. Dick", "race": "teifling", "class": "wizard", "items": ["crossbow", "sword", "breasplate"]}
+{"name": "Digenis Akritas", "race": "dragonborn", "class": "wizard", "items": ["boots", "staff", "amulet", "pauldran", "potion"]}
+{"name": "Arthur Dimmesdale", "race": "halfling", "class": "druid", "items": ["pauldran", "bag"]}
+{"name": "Dick and Nicole Diver", "race": "teifling", "class": "cleric", "items": ["food", "dagger", "axe", "shield"]}
+{"name": "Don Quixote", "race": "dwarf", "class": "ranger", "items": ["staff", "sword", "bag"]}
+{"name": "Eliza Doolittle", "race": "elve", "class": "warrior", "items": ["boots", "amulet", "sword", "sling"]}
+{"name": "Lorna Doone", "race": "orc", "class": "thief", "items": ["bracers", "spear", "trident", "hammer"]}
+{"name": "Dorothy", "race": "goblin", "class": "sorcerer", "items": ["ring", "bracers", "shield", "potion"]}
+{"name": "Dottore", "race": "bugbear", "class": "cleric", "items": ["breasplate", "bracers", "axe", "mace"]}
+{"name": "Nancy Drew", "race": "dwarf", "class": "paladin", "items": ["shield", "ring", "hammer"]}
+{"name": "Edwin Drood", "race": "goblin", "class": "wizard", "items": ["potion", "ring", "boots"]}
+{"name": "Bulldog Drummond", "race": "dwarf", "class": "paladin", "items": ["bag", "rope", "bracers", "trident", "amulet"]}
+{"name": "Blanche DuBois", "race": "dragonborn", "class": "necromancer", "items": ["amulet", "trident", "rope"]}
+{"name": "The Duchess", "race": "dwarf", "class": "thief", "items": ["breasplate", "sword", "food", "sling", "amulet"]}
+{"name": "The Duke and the Dauphin", "race": "dwarf", "class": "barbarian", "items": ["sling", "breasplate", "bracers", "trident"]}
+{"name": "Dulcinea", "race": "halfling", "class": "warrior", "items": ["boots", "sword"]}
+{"name": "C. Auguste Dupin", "race": "dwarf", "class": "sorcerer", "items": ["bracers", "bow", "ring", "flail", "potion"]}
+{"name": "Humphrey Chimpden Earwicker", "race": "orc", "class": "thief", "items": ["staff", "sling", "familiar", "bow"]}
+{"name": "Eeyore", "race": "halfling", "class": "thief", "items": ["staff", "pauldran", "sword"]}
+{"name": "Elliot family", "race": "human", "class": "necromancer", "items": ["sling", "crossbow", "rope"]}
+{"name": "Lord Emsworth", "race": "halfling", "class": "druid", "items": ["bow", "sling", "amulet", "breasplate"]}
+{"name": "Enmerkar", "race": "human", "class": "druid", "items": ["trident", "bracers", "axe"]}
+{"name": "Henry Esmond", "race": "uruk", "class": "cleric", "items": ["axe", "ring", "spear", "potion"]}
+{"name": "Till Eulenspiegel", "race": "human", "class": "paladin", "items": ["mace", "hammer", "sling"]}
+{"name": "Bathsheba Everdene", "race": "elve", "class": "wizard", "items": ["ring", "breasplate", "spear", "familiar", "crossbow"]}
+{"name": "Fagin", "race": "teifling", "class": "wizard", "items": ["familiar", "spear", "crossbow", "boots"]}
+{"name": "Lord Fauntleroy", "race": "goblin", "class": "druid", "items": ["trident", "familiar", "spear", "rope"]}
+{"name": "Jude Fawley", "race": "human", "class": "warrior", "items": ["ring", "rope", "boots"]}
+{"name": "Richard Feverel", "race": "goblin", "class": "necromancer", "items": ["helmet", "bracers", "familiar", "hammer"]}
+{"name": "Fezziwig", "race": "goblin", "class": "cleric", "items": ["dagger", "spear", "crossbow"]}
+{"name": "Flora Finching", "race": "bugbear", "class": "thief", "items": ["bag", "hammer", "spear", "shield"]}
+{"name": "Finn", "race": "goblin", "class": "cleric", "items": ["helmet", "rope", "staff", "shield"]}
+{"name": "Huckleberry Finn", "race": "halfling", "class": "druid", "items": ["rope", "hammer", "bag"]}
+{"name": "Jeremiah Flintwinch", "race": "teifling", "class": "wizard", "items": ["breasplate", "helmet", "shield"]}
+{"name": "Phileas Fogg", "race": "halfling", "class": "cleric", "items": ["trident", "rope", "spear"]}
+{"name": "Forsyte family", "race": "dwarf", "class": "warrior", "items": ["food", "sword", "crossbow", "sling", "staff"]}
+{"name": "Count Fosco", "race": "elve", "class": "warrior", "items": ["amulet", "sword", "breasplate", "bag", "potion"]}
+{"name": "Frankenstein", "race": "dwarf", "class": "sorcerer", "items": ["trident", "shield", "pauldran"]}
+{"name": "Ethan Frome", "race": "bugbear", "class": "barbarian", "items": ["trident", "pauldran", "helmet"]}
+{"name": "Fu Manchu", "race": "orc", "class": "warrior", "items": ["shield", "bag", "sling", "bow", "rope"]}
+{"name": "Hedda Gabler", "race": "halfling", "class": "ranger", "items": ["rope", "hammer", "helmet", "shield"]}
+{"name": "Sairey Gamp", "race": "uruk", "class": "sorcerer", "items": ["flail", "amulet", "ring", "spear"]}
+{"name": "Gandalf", "race": "dwarf", "class": "cleric", "items": ["hammer", "mace", "staff"]}
+{"name": "Eugene Gant", "race": "human", "class": "ranger", "items": ["pauldran", "breasplate", "shield", "familiar"]}
+{"name": "Joe Gargery", "race": "human", "class": "necromancer", "items": ["spear", "breasplate", "hammer"]}
+{"name": "Jay Gatsby", "race": "human", "class": "wizard", "items": ["shield", "spear", "crossbow"]}
+{"name": "Gellert", "race": "dwarf", "class": "druid", "items": ["mace", "bag", "boots", "helmet"]}
+{"name": "Beau Geste", "race": "human", "class": "paladin", "items": ["familiar", "axe", "bow"]}
+{"name": "Gilgamesh", "race": "elve", "class": "thief", "items": ["bracers", "flail", "sling", "trident"]}
+{"name": "Glass family", "race": "elve", "class": "warrior", "items": ["amulet", "sword", "boots", "trident"]}
+{"name": "Boris Godunov", "race": "dragonborn", "class": "sorcerer", "items": ["bow", "sling", "helmet", "spear", "mace"]}
+{"name": "Golias", "race": "dragonborn", "class": "wizard", "items": ["familiar", "flail", "axe"]}
+{"name": "Gollum", "race": "dwarf", "class": "warrior", "items": ["staff", "food", "spear", "axe"]}
+{"name": "P\u00e8re Goriot", "race": "uruk", "class": "warrior", "items": ["ring", "crossbow", "food", "pauldran"]}
+{"name": "Gradgrind", "race": "orc", "class": "necromancer", "items": ["bow", "potion", "hammer"]}
+{"name": "Eug\u00e9nie Grandet", "race": "dragonborn", "class": "thief", "items": ["crossbow", "food", "hammer", "helmet", "bracers"]}
+{"name": "Emmeline Grangerford", "race": "halfling", "class": "thief", "items": ["bag", "shield", "pauldran"]}
+{"name": "Dorian Gray", "race": "uruk", "class": "sorcerer", "items": ["rope", "potion", "bag", "familiar"]}
+{"name": "Grendel", "race": "dragonborn", "class": "cleric", "items": ["food", "hammer", "dagger", "familiar", "bracers"]}
+{"name": "Clyde Griffiths", "race": "halfling", "class": "barbarian", "items": ["dagger", "bag", "hammer"]}
+{"name": "Grisette", "race": "human", "class": "paladin", "items": ["familiar", "pauldran", "amulet", "shield"]}
+{"name": "Titus Groan", "race": "goblin", "class": "thief", "items": ["hammer", "axe", "boots", "dagger"]}
+{"name": "Mrs. Grundy", "race": "halfling", "class": "druid", "items": ["boots", "food", "shield", "flail"]}
+{"name": "Guermantes family", "race": "human", "class": "barbarian", "items": ["breasplate", "familiar", "pauldran"]}
+{"name": "Martin Guerre", "race": "halfling", "class": "sorcerer", "items": ["mace", "bracers", "flail"]}
+{"name": "Guildenstern", "race": "dwarf", "class": "sorcerer", "items": ["sling", "mace", "axe"]}
+{"name": "Prince Hal", "race": "goblin", "class": "wizard", "items": ["amulet", "bracers", "sling"]}
+{"name": "Mike Hammer", "race": "uruk", "class": "cleric", "items": ["pauldran", "amulet", "bracers", "potion"]}
+{"name": "Hardy Boys", "race": "elve", "class": "necromancer", "items": ["pauldran", "staff", "spear", "breasplate"]}
+{"name": "Jonathan Harker", "race": "human", "class": "necromancer", "items": ["bracers", "hammer", "familiar"]}
+{"name": "Harlequin", "race": "human", "class": "paladin", "items": ["sword", "hammer", "trident"]}
+{"name": "Clarissa Harlowe", "race": "teifling", "class": "druid", "items": ["rope", "dagger", "flail", "amulet", "pauldran"]}
+{"name": "Miss Havisham", "race": "human", "class": "thief", "items": ["shield", "spear", "bag", "potion", "boots"]}
+{"name": "Jim Hawkins", "race": "bugbear", "class": "ranger", "items": ["shield", "bow", "amulet", "dagger", "helmet"]}
+{"name": "Asa and Sabbath Lily Hawks", "race": "dwarf", "class": "thief", "items": ["bow", "ring", "helmet", "staff"]}
+{"name": "Headless horseman", "race": "dwarf", "class": "necromancer", "items": ["bag", "mace", "hammer"]}
+{"name": "Heathcliff", "race": "goblin", "class": "necromancer", "items": ["familiar", "trident", "spear", "axe"]}
+{"name": "Uriah Heep", "race": "goblin", "class": "sorcerer", "items": ["dagger", "mace", "axe"]}
+{"name": "Matt Helm", "race": "bugbear", "class": "paladin", "items": ["flail", "trident"]}
+{"name": "Nora Helmer", "race": "goblin", "class": "warrior", "items": ["pauldran", "staff", "spear", "ring", "bow"]}
+{"name": "Michael Henchard", "race": "halfling", "class": "druid", "items": ["boots", "food", "familiar", "trident"]}
+{"name": "Herne the Hunter", "race": "teifling", "class": "cleric", "items": ["food", "staff", "hammer", "sling"]}
+{"name": "Henry Higgins", "race": "goblin", "class": "thief", "items": ["mace", "bag", "familiar", "amulet", "shield"]}
+{"name": "Fanny Hill", "race": "halfling", "class": "wizard", "items": ["potion", "sword", "helmet", "sling", "breasplate"]}
+{"name": "Roy Hobbs", "race": "dwarf", "class": "necromancer", "items": ["rope", "spear", "dagger", "sling"]}
+{"name": "Sherlock Holmes", "race": "orc", "class": "sorcerer", "items": ["food", "bracers", "breasplate"]}
+{"name": "Horatio Hornblower", "race": "elve", "class": "warrior", "items": ["bow", "spear"]}
+{"name": "Roderick Hudson", "race": "orc", "class": "warrior", "items": ["amulet", "mace", "breasplate", "shield"]}
+{"name": "Humbert Humbert", "race": "bugbear", "class": "necromancer", "items": ["dagger", "sling", "flail", "breasplate", "boots"]}
+{"name": "Humpty Dumpty", "race": "human", "class": "paladin", "items": ["helmet", "sword", "amulet"]}
+{"name": "Mr. Hyde", "race": "goblin", "class": "necromancer", "items": ["breasplate", "amulet", "dagger", "crossbow"]}
+{"name": "Iago", "race": "elve", "class": "barbarian", "items": ["spear", "ring", "bracers", "sling"]}
+{"name": "Ilya of Murom", "race": "orc", "class": "paladin", "items": ["spear", "bracers", "food", "shield", "crossbow"]}
+{"name": "Infant Phenomenon", "race": "dwarf", "class": "necromancer", "items": ["potion", "pauldran", "bow", "familiar", "flail"]}
+{"name": "Isolde", "race": "dragonborn", "class": "cleric", "items": ["helmet", "potion", "spear", "breasplate"]}
+{"name": "Jabberwock", "race": "human", "class": "wizard", "items": ["amulet", "trident", "helmet", "potion", "bow"]}
+{"name": "Mr. Jaggers", "race": "orc", "class": "necromancer", "items": ["staff", "crossbow", "ring"]}
+{"name": "Jarndyce family", "race": "orc", "class": "paladin", "items": ["pauldran", "helmet", "spear"]}
+{"name": "Dr. Jekyll", "race": "goblin", "class": "thief", "items": ["helmet", "spear", "staff"]}
+{"name": "Mrs. Jellyby", "race": "human", "class": "ranger", "items": ["trident", "sword", "staff"]}
+{"name": "Jim", "race": "bugbear", "class": "druid", "items": ["bag", "crossbow", "axe", "potion"]}
+{"name": "Gulley Jimson", "race": "dragonborn", "class": "warrior", "items": ["trident", "bow", "food", "shield"]}
+{"name": "Joad family", "race": "bugbear", "class": "warrior", "items": ["ring", "rope", "bow", "food"]}
+{"name": "Joseph K.", "race": "human", "class": "necromancer", "items": ["bow", "helmet", "spear"]}
+{"name": "Juliet", "race": "dwarf", "class": "thief", "items": ["axe", "helmet"]}
+{"name": "Karamazov brothers", "race": "orc", "class": "druid", "items": ["axe", "flail", "pauldran"]}
+{"name": "Anna Karenina", "race": "dwarf", "class": "wizard", "items": ["mace", "axe", "sling"]}
+{"name": "Katharina", "race": "elve", "class": "sorcerer", "items": ["hammer", "crossbow", "ring"]}
+{"name": "Carol Kennicott", "race": "teifling", "class": "barbarian", "items": ["mace", "helmet", "amulet"]}
+{"name": "Diedrich Knickerbocker", "race": "teifling", "class": "warrior", "items": ["bag", "bracers", "ring", "pauldran"]}
+{"name": "George Knightley", "race": "teifling", "class": "wizard", "items": ["rope", "food", "trident"]}
+{"name": "Stanley Kowalski", "race": "goblin", "class": "warrior", "items": ["sling", "crossbow", "sword", "shield"]}
+{"name": "Tonio Kr\u00f6ger", "race": "orc", "class": "thief", "items": ["bow", "trident", "staff", "sling", "boots"]}
+{"name": "Mr. Kurtz", "race": "dwarf", "class": "ranger", "items": ["familiar", "hammer", "boots"]}
+{"name": "Will Ladislaw", "race": "human", "class": "cleric", "items": ["trident", "rope", "spear"]}
+{"name": "Lydia Languish", "race": "dragonborn", "class": "paladin", "items": ["trident", "dagger"]}
+{"name": "Silas Lapham", "race": "uruk", "class": "barbarian", "items": ["bracers", "sling", "ring"]}
+{"name": "Wolf Larsen", "race": "human", "class": "ranger", "items": ["ring", "bag", "staff", "axe"]}
+{"name": "Lazarillo de Tormes", "race": "uruk", "class": "barbarian", "items": ["mace", "rope", "boots", "breasplate", "shield"]}
+{"name": "Lear", "race": "human", "class": "sorcerer", "items": ["dagger", "amulet", "breasplate", "crossbow", "shield"]}
+{"name": "Simon Legree", "race": "teifling", "class": "thief", "items": ["mace", "staff", "food"]}
+{"name": "Lemmink\u00e4inen", "race": "teifling", "class": "paladin", "items": ["pauldran", "sword", "rope"]}
+{"name": "Inspector Lestrade", "race": "orc", "class": "paladin", "items": ["bag", "bow", "bracers", "rope", "staff"]}
+{"name": "Konstantine Levin", "race": "halfling", "class": "cleric", "items": ["pauldran", "bracers", "rope"]}
+{"name": "Linton family", "race": "teifling", "class": "thief", "items": ["bag", "crossbow", "sling", "shield"]}
+{"name": "Little Em'ly", "race": "dwarf", "class": "sorcerer", "items": ["bag", "staff", "spear", "mace"]}
+{"name": "Little Eva", "race": "orc", "class": "necromancer", "items": ["hammer", "sling", "trident", "food"]}
+{"name": "Little Nell", "race": "bugbear", "class": "sorcerer", "items": ["sling", "bow", "ring", "bracers", "helmet"]}
+{"name": "Lochinvar", "race": "orc", "class": "cleric", "items": ["rope", "axe", "sword"]}
+{"name": "Lohengrin", "race": "human", "class": "paladin", "items": ["pauldran", "sling", "bag", "crossbow"]}
+{"name": "Willy Loman", "race": "orc", "class": "necromancer", "items": ["mace", "flail", "breasplate", "bow"]}
+{"name": "Studs Lonigan", "race": "human", "class": "wizard", "items": ["amulet", "spear", "bracers"]}
+{"name": "Lothario", "race": "dwarf", "class": "sorcerer", "items": ["familiar", "pauldran", "boots"]}
+{"name": "Robert Lovelace", "race": "halfling", "class": "sorcerer", "items": ["trident", "mace", "hammer"]}
+{"name": "Sut Lovingood", "race": "dragonborn", "class": "necromancer", "items": ["crossbow", "axe", "mace", "sling"]}
+{"name": "Lugalbanda", "race": "orc", "class": "warrior", "items": ["crossbow", "sword", "ring", "familiar", "pauldran"]}
+{"name": "Lulu", "race": "uruk", "class": "druid", "items": ["amulet", "sling", "food", "shield", "axe"]}
+{"name": "Ars\u00e8ne Lupin", "race": "human", "class": "barbarian", "items": ["axe", "breasplate", "flail", "bow", "dagger"]}
+{"name": "Tertius Lydgate", "race": "halfling", "class": "sorcerer", "items": ["shield", "food", "staff", "sling"]}
+{"name": "Barry Lyndon", "race": "dragonborn", "class": "paladin", "items": ["bow", "bracers", "bag", "dagger", "ring"]}
+{"name": "Macbeth", "race": "goblin", "class": "paladin", "items": ["food", "rope", "boots", "sword", "ring"]}
+{"name": "Lady Macbeth", "race": "bugbear", "class": "sorcerer", "items": ["ring", "helmet", "spear"]}
+{"name": "Macheath", "race": "dragonborn", "class": "druid", "items": ["rope", "amulet", "staff", "familiar", "sling"]}
+{"name": "Mad Hatter", "race": "teifling", "class": "wizard", "items": ["boots", "shield", "spear"]}
+{"name": "Madog ab Owain Gwynedd", "race": "bugbear", "class": "paladin", "items": ["food", "staff", "crossbow", "shield"]}
+{"name": "Maeld\u00fain", "race": "human", "class": "ranger", "items": ["bracers", "rope", "food", "flail", "hammer"]}
+{"name": "Abel Magwitch", "race": "human", "class": "druid", "items": ["boots", "amulet", "sling"]}
+{"name": "Jules Maigret", "race": "orc", "class": "necromancer", "items": ["rope", "staff", "food"]}
+{"name": "Major Major", "race": "dwarf", "class": "sorcerer", "items": ["potion", "pauldran", "food", "crossbow", "staff"]}
+{"name": "Malcolm", "race": "dragonborn", "class": "ranger", "items": ["staff", "mace", "familiar", "breasplate"]}
+{"name": "Alexander and Lucie Manette", "race": "elve", "class": "barbarian", "items": ["boots", "amulet", "bag", "rope"]}
+{"name": "Marcel", "race": "halfling", "class": "paladin", "items": ["trident", "axe", "potion", "familiar"]}
+{"name": "March Hare", "race": "goblin", "class": "warrior", "items": ["helmet", "bracers", "bow"]}
+{"name": "March family", "race": "uruk", "class": "necromancer", "items": ["sword", "mace", "boots"]}
+{"name": "Augie March", "race": "dwarf", "class": "ranger", "items": ["amulet", "flail", "spear", "boots"]}
+{"name": "Marchmain family", "race": "elve", "class": "paladin", "items": ["trident", "crossbow", "bag"]}
+{"name": "Jacob Marley", "race": "dwarf", "class": "sorcerer", "items": ["mace", "hammer", "breasplate"]}
+{"name": "Philip Marlowe", "race": "teifling", "class": "sorcerer", "items": ["axe", "flail", "sling"]}
+{"name": "Miss Marple", "race": "uruk", "class": "sorcerer", "items": ["shield", "potion", "ring", "food"]}
+{"name": "Bertha Mason", "race": "orc", "class": "sorcerer", "items": ["helmet", "crossbow", "shield"]}
+{"name": "Perry Mason", "race": "goblin", "class": "necromancer", "items": ["flail", "hammer", "staff"]}
+{"name": "Travis McGee", "race": "halfling", "class": "wizard", "items": ["pauldran", "amulet", "breasplate", "axe"]}
+{"name": "Wilhelm Meister", "race": "uruk", "class": "warrior", "items": ["ring", "dagger", "food", "spear", "potion"]}
+{"name": "Oliver Mellors", "race": "dwarf", "class": "barbarian", "items": ["potion", "breasplate", "bow", "boots", "shield"]}
+{"name": "Mr. Merdle", "race": "goblin", "class": "ranger", "items": ["dagger", "sling", "potion", "trident"]}
+{"name": "Wilkins Micawber", "race": "goblin", "class": "druid", "items": ["hammer", "spear", "boots", "flail", "bracers"]}
+{"name": "Daisy Miller", "race": "halfling", "class": "paladin", "items": ["potion", "axe", "spear", "mace"]}
+{"name": "Miranda", "race": "teifling", "class": "ranger", "items": ["spear", "bracers", "crossbow"]}
+{"name": "Walter Mitty", "race": "goblin", "class": "warrior", "items": ["mace", "breasplate", "helmet", "flail", "bag"]}
+{"name": "Mock Turtle", "race": "dwarf", "class": "cleric", "items": ["staff", "trident", "axe", "potion"]}
+{"name": "Sara Monday", "race": "halfling", "class": "paladin", "items": ["bracers", "food", "helmet", "crossbow"]}
+{"name": "Moomintroll", "race": "dwarf", "class": "ranger", "items": ["potion", "staff", "food"]}
+{"name": "Hank Morgan", "race": "dragonborn", "class": "barbarian", "items": ["mace", "bracers", "potion"]}
+{"name": "Professor Moriarty", "race": "uruk", "class": "barbarian", "items": ["mace", "bow", "helmet", "shield"]}
+{"name": "Catherine Morland", "race": "teifling", "class": "barbarian", "items": ["crossbow", "shield", "staff", "bow", "bracers"]}
+{"name": "Hazel Motes", "race": "dragonborn", "class": "cleric", "items": ["bow", "breasplate", "food", "crossbow"]}
+{"name": "Mr. Moto", "race": "dragonborn", "class": "wizard", "items": ["crossbow", "helmet", "rope"]}
+{"name": "Mowgli", "race": "elve", "class": "ranger", "items": ["hammer", "sword", "bracers"]}
+{"name": "Mugridge", "race": "orc", "class": "wizard", "items": ["bow", "sword", "familiar", "boots"]}
+{"name": "Baron Munchausen", "race": "dwarf", "class": "necromancer", "items": ["ring", "rope", "dagger"]}
+{"name": "Edward Murdstone", "race": "orc", "class": "warrior", "items": ["shield", "familiar", "rope", "bag", "hammer"]}
+{"name": "Captain Nemo", "race": "orc", "class": "druid", "items": ["trident", "spear", "crossbow", "shield", "breasplate"]}
+{"name": "Nicholas Nickleby", "race": "orc", "class": "sorcerer", "items": ["amulet", "helmet", "axe", "breasplate"]}
+{"name": "Scarlett O'Hara", "race": "bugbear", "class": "cleric", "items": ["flail", "sword", "dagger", "sling", "mace"]}
+{"name": "Gabriel Oak", "race": "goblin", "class": "thief", "items": ["axe", "bracers", "dagger"]}
+{"name": "Oberon", "race": "bugbear", "class": "ranger", "items": ["bag", "crossbow", "rope", "axe"]}
+{"name": "Odette", "race": "goblin", "class": "cleric", "items": ["staff", "familiar", "potion"]}
+{"name": "Duke of Omnium", "race": "bugbear", "class": "wizard", "items": ["bracers", "trident", "pauldran"]}
+{"name": "Eugene Onegin", "race": "goblin", "class": "paladin", "items": ["flail", "rope", "crossbow", "bag", "ring"]}
+{"name": "Ophelia", "race": "orc", "class": "ranger", "items": ["crossbow", "rope", "hammer"]}
+{"name": "Orlando", "race": "uruk", "class": "cleric", "items": ["bag", "bow", "breasplate", "food", "spear"]}
+{"name": "Orlando", "race": "goblin", "class": "sorcerer", "items": ["bracers", "staff", "shield", "sling"]}
+{"name": "Gilbert Osmond", "race": "dwarf", "class": "wizard", "items": ["bow", "boots", "rope"]}
+{"name": "Othello", "race": "human", "class": "necromancer", "items": ["familiar", "sword", "staff"]}
+{"name": "Palliser family", "race": "uruk", "class": "thief", "items": ["hammer", "spear", "sling"]}
+{"name": "Pancks", "race": "human", "class": "barbarian", "items": ["breasplate", "axe", "bag", "rope", "helmet"]}
+{"name": "Pangloss", "race": "dragonborn", "class": "thief", "items": ["sword", "shield"]}
+{"name": "Pantaloon", "race": "dragonborn", "class": "cleric", "items": ["breasplate", "axe", "trident", "ring", "amulet"]}
+{"name": "Panurge", "race": "human", "class": "druid", "items": ["bag", "amulet", "shield"]}
+{"name": "Peachum family", "race": "orc", "class": "necromancer", "items": ["dagger", "sling", "shield", "staff", "boots"]}
+{"name": "Pearl", "race": "goblin", "class": "cleric", "items": ["potion", "sling", "food"]}
+{"name": "Seth Pecksniff", "race": "uruk", "class": "sorcerer", "items": ["breasplate", "hammer", "staff"]}
+{"name": "Pedrolino", "race": "orc", "class": "paladin", "items": ["sword", "mace", "staff", "rope"]}
+{"name": "Peer Gynt", "race": "orc", "class": "sorcerer", "items": ["helmet", "staff", "flail", "familiar"]}
+{"name": "Clara Peggotty", "race": "goblin", "class": "paladin", "items": ["mace", "sling", "food", "ring"]}
+{"name": "Peter Pan", "race": "goblin", "class": "thief", "items": ["flail", "familiar", "shield", "spear", "rope"]}
+{"name": "Petruchio", "race": "dragonborn", "class": "thief", "items": ["mace", "bag", "breasplate", "hammer", "staff"]}
+{"name": "Samuel Pickwick", "race": "bugbear", "class": "paladin", "items": ["bag", "shield", "flail", "rope"]}
+{"name": "Piglet", "race": "dwarf", "class": "druid", "items": ["shield", "spear", "dagger", "potion"]}
+{"name": "Billy Pilgrim", "race": "halfling", "class": "paladin", "items": ["staff", "sword", "flail"]}
+{"name": "Pinocchio", "race": "elve", "class": "barbarian", "items": ["pauldran", "hammer", "ring", "mace"]}
+{"name": "Pip", "race": "dwarf", "class": "thief", "items": ["bow", "hammer", "trident", "pauldran"]}
+{"name": "Sir Fretful Plagiary", "race": "halfling", "class": "thief", "items": ["sling", "spear", "sword", "bag", "amulet"]}
+{"name": "Anna Livia Plurabelle", "race": "dragonborn", "class": "thief", "items": ["sword", "staff", "hammer"]}
+{"name": "Hercule Poirot", "race": "halfling", "class": "sorcerer", "items": ["breasplate", "flail", "bracers", "mace", "staff"]}
+{"name": "Ross Poldark", "race": "bugbear", "class": "wizard", "items": ["pauldran", "crossbow", "dagger"]}
+{"name": "Aunt Polly", "race": "teifling", "class": "thief", "items": ["bag", "hammer", "rope"]}
+{"name": "Pollyanna", "race": "uruk", "class": "paladin", "items": ["breasplate", "staff", "trident", "potion", "helmet"]}
+{"name": "Polonius", "race": "dragonborn", "class": "sorcerer", "items": ["hammer", "ring", "food"]}
+{"name": "Pontifex family", "race": "dragonborn", "class": "druid", "items": ["potion", "sling", "shield", "breasplate", "spear"]}
+{"name": "Mary Poppins", "race": "bugbear", "class": "wizard", "items": ["breasplate", "potion", "bow", "rope", "mace"]}
+{"name": "Porthos", "race": "elve", "class": "wizard", "items": ["flail"]}
+{"name": "Portia", "race": "teifling", "class": "druid", "items": ["helmet", "pauldran", "staff", "food"]}
+{"name": "Harry Potter", "race": "orc", "class": "warrior", "items": ["axe", "shield", "potion"]}
+{"name": "Fanny Price", "race": "bugbear", "class": "paladin", "items": ["shield", "helmet", "amulet", "crossbow"]}
+{"name": "Miss Prism", "race": "dragonborn", "class": "sorcerer", "items": ["food", "potion", "sword", "hammer"]}
+{"name": "Prospero", "race": "halfling", "class": "paladin", "items": ["dagger", "hammer", "ring", "bracers"]}
+{"name": "J. Alfred Prufrock", "race": "orc", "class": "thief", "items": ["helmet", "familiar", "sword", "rope"]}
+{"name": "Hester Prynne", "race": "bugbear", "class": "druid", "items": ["boots", "amulet", "sling", "bracers"]}
+{"name": "Puck", "race": "halfling", "class": "necromancer", "items": ["hammer", "ring", "trident", "food", "pauldran"]}
+{"name": "Puss in Boots", "race": "orc", "class": "warrior", "items": ["breasplate", "crossbow", "potion", "bracers"]}
+{"name": "Quasimodo", "race": "dragonborn", "class": "cleric", "items": ["crossbow", "amulet", "food", "boots"]}
+{"name": "Allan Quatermain", "race": "teifling", "class": "necromancer", "items": ["helmet", "crossbow", "pauldran", "amulet", "spear"]}
+{"name": "Captain Queeg", "race": "orc", "class": "warrior", "items": ["spear", "hammer", "axe", "bracers", "bow"]}
+{"name": "Queen of Hearts", "race": "halfling", "class": "paladin", "items": ["rope", "familiar", "helmet", "pauldran"]}
+{"name": "Queequeg", "race": "human", "class": "wizard", "items": ["bow", "staff", "spear", "breasplate"]}
+{"name": "Adela Quested", "race": "goblin", "class": "barbarian", "items": ["boots", "pauldran", "mace"]}
+{"name": "Daniel Quilp", "race": "elve", "class": "sorcerer", "items": ["rope", "pauldran", "ring", "spear", "crossbow"]}
+{"name": "A.J. Raffles", "race": "dragonborn", "class": "warrior", "items": ["breasplate", "helmet", "staff"]}
+{"name": "Ramsay family", "race": "human", "class": "wizard", "items": ["amulet", "dagger", "breasplate", "pauldran"]}
+{"name": "Basil Ransom", "race": "dwarf", "class": "sorcerer", "items": ["hammer", "trident", "rope"]}
+{"name": "Rodion Raskolnikov", "race": "halfling", "class": "warrior", "items": ["sling", "hammer", "bow"]}
+{"name": "Red Cross Knight", "race": "teifling", "class": "wizard", "items": ["spear", "helmet", "crossbow"]}
+{"name": "Regan", "race": "dwarf", "class": "paladin", "items": ["dagger", "hammer", "ring", "bag", "crossbow"]}
+{"name": "Reynard the Fox", "race": "elve", "class": "barbarian", "items": ["food", "bow", "amulet"]}
+{"name": "Richard III", "race": "elve", "class": "paladin", "items": ["helmet", "mace", "rope", "dagger"]}
+{"name": "Tom Ripley", "race": "bugbear", "class": "paladin", "items": ["bracers", "ring", "hammer", "sword"]}
+{"name": "Howard Roark", "race": "halfling", "class": "necromancer", "items": ["bracers", "hammer", "sword", "shield"]}
+{"name": "Robin Hood", "race": "elve", "class": "barbarian", "items": ["mace", "trident", "sling"]}
+{"name": "Christopher Robin", "race": "teifling", "class": "wizard", "items": ["mace", "bracers", "shield", "potion", "boots"]}
+{"name": "Mr. Rochester", "race": "uruk", "class": "cleric", "items": ["food", "familiar", "amulet"]}
+{"name": "Rocinante", "race": "dwarf", "class": "wizard", "items": ["boots", "sling", "axe"]}
+{"name": "Romeo", "race": "dragonborn", "class": "necromancer", "items": ["staff", "pauldran", "mace", "axe", "breasplate"]}
+{"name": "Rosalind", "race": "uruk", "class": "druid", "items": ["trident", "bracers", "pauldran"]}
+{"name": "Rosencrantz", "race": "uruk", "class": "cleric", "items": ["axe", "bag", "amulet", "trident"]}
+{"name": "Rostov family", "race": "goblin", "class": "thief", "items": ["sling", "familiar", "amulet", "rope", "ring"]}
+{"name": "Roxane", "race": "elve", "class": "thief", "items": ["familiar", "pauldran", "food"]}
+{"name": "Barnaby Rudge", "race": "dwarf", "class": "warrior", "items": ["familiar", "sword", "mace", "shield"]}
+{"name": "Ruggiero", "race": "elve", "class": "warrior", "items": ["bow", "flail", "bracers", "crossbow"]}
+{"name": "Marmaduke Ruggles", "race": "halfling", "class": "thief", "items": ["familiar", "food", "rope", "bracers"]}
+{"name": "Horace Rumpole", "race": "uruk", "class": "ranger", "items": ["crossbow", "helmet"]}
+{"name": "Charles Ryder", "race": "uruk", "class": "warrior", "items": ["sling", "staff", "familiar", "bag", "potion"]}
+{"name": "The Saint", "race": "bugbear", "class": "ranger", "items": ["familiar", "bracers", "boots", "potion"]}
+{"name": "Gregor Samsa", "race": "goblin", "class": "thief", "items": ["bow", "staff", "crossbow", "flail"]}
+{"name": "Sancho Panza", "race": "dragonborn", "class": "ranger", "items": ["breasplate", "rope", "axe"]}
+{"name": "Tom Sawyer", "race": "uruk", "class": "wizard", "items": ["staff", "food", "axe", "bow", "ring"]}
+{"name": "Scapin", "race": "goblin", "class": "thief", "items": ["rope", "bracers", "dagger"]}
+{"name": "Scaramouche", "race": "human", "class": "ranger", "items": ["food", "flail", "shield", "spear"]}
+{"name": "Ebenezer Scrooge", "race": "dragonborn", "class": "ranger", "items": ["hammer", "bracers", "mace"]}
+{"name": "Amelia Sedley", "race": "teifling", "class": "paladin", "items": ["spear", "potion", "familiar", "breasplate"]}
+{"name": "The Shadow", "race": "human", "class": "necromancer", "items": ["breasplate", "potion", "mace"]}
+{"name": "Shakuntala", "race": "dragonborn", "class": "warrior", "items": ["dagger", "rope", "bag", "sling"]}
+{"name": "Becky Sharp", "race": "teifling", "class": "necromancer", "items": ["food", "flail", "bow", "potion"]}
+{"name": "\u00c1ntonia Shimerda", "race": "human", "class": "druid", "items": ["potion", "hammer"]}
+{"name": "Anne Shirley", "race": "goblin", "class": "paladin", "items": ["boots", "helmet", "potion", "crossbow"]}
+{"name": "Shrek", "race": "teifling", "class": "wizard", "items": ["amulet", "spear", "staff", "rope"]}
+{"name": "Shylock", "race": "goblin", "class": "druid", "items": ["sling", "bag", "bow", "crossbow"]}
+{"name": "Bill Sikes", "race": "uruk", "class": "warrior", "items": ["amulet", "rope", "helmet"]}
+{"name": "Long John Silver", "race": "dragonborn", "class": "barbarian", "items": ["staff", "boots", "hammer", "dagger"]}
+{"name": "Tyrone Slothrop", "race": "uruk", "class": "paladin", "items": ["dagger", "axe", "familiar", "bracers"]}
+{"name": "Smike", "race": "bugbear", "class": "thief", "items": ["sword", "bag", "dagger", "boots"]}
+{"name": "George Smiley", "race": "uruk", "class": "necromancer", "items": ["sword", "mace", "axe", "bracers"]}
+{"name": "Winston Smith", "race": "bugbear", "class": "barbarian", "items": ["potion", "amulet", "boots", "bracers", "shield"]}
+{"name": "Snark", "race": "orc", "class": "warrior", "items": ["rope", "food", "bag", "bracers", "crossbow"]}
+{"name": "Snopes family", "race": "goblin", "class": "druid", "items": ["flail", "shield", "potion", "hammer"]}
+{"name": "Snowball", "race": "uruk", "class": "paladin", "items": ["bracers", "flail", "familiar", "rope"]}
+{"name": "Lucy Snowe", "race": "dwarf", "class": "sorcerer", "items": ["breasplate", "boots", "ring", "rope", "helmet"]}
+{"name": "Halvard Solness", "race": "goblin", "class": "sorcerer", "items": ["sword", "sling", "rope", "mace"]}
+{"name": "Hetty Sorrel", "race": "dwarf", "class": "warrior", "items": ["sword", "bracers", "spear"]}
+{"name": "Sam Spade", "race": "orc", "class": "wizard", "items": ["amulet", "shield", "helmet"]}
+{"name": "Dora Spenlow", "race": "orc", "class": "necromancer", "items": ["mace", "ring", "shield", "flail"]}
+{"name": "Wackford Squeers", "race": "dragonborn", "class": "barbarian", "items": ["sling", "spear", "crossbow", "bow"]}
+{"name": "Stage Manager", "race": "uruk", "class": "sorcerer", "items": ["pauldran", "bag", "breasplate", "familiar"]}
+{"name": "Monroe Stahr", "race": "dragonborn", "class": "druid", "items": ["pauldran", "axe", "familiar"]}
+{"name": "Starbuck", "race": "dwarf", "class": "cleric", "items": ["axe", "shield", "hammer", "sling"]}
+{"name": "Willie Stark", "race": "elve", "class": "thief", "items": ["potion", "bag"]}
+{"name": "James Steerforth", "race": "dragonborn", "class": "thief", "items": ["crossbow", "mace", "breasplate", "hammer"]}
+{"name": "Lambert Strether", "race": "elve", "class": "sorcerer", "items": ["bow", "mace"]}
+{"name": "Esther Summerson", "race": "dragonborn", "class": "druid", "items": ["sword", "boots", "trident", "bag"]}
+{"name": "Charles and Joseph Surface", "race": "teifling", "class": "ranger", "items": ["staff", "familiar", "boots", "potion"]}
+{"name": "Sutpen family", "race": "dragonborn", "class": "barbarian", "items": ["boots", "ring", "sling", "pauldran"]}
+{"name": "Svengali", "race": "elve", "class": "cleric", "items": ["amulet", "sword", "breasplate"]}
+{"name": "Charles Swann", "race": "dwarf", "class": "sorcerer", "items": ["boots", "flail", "shield"]}
+{"name": "Verena Tarrant", "race": "uruk", "class": "druid", "items": ["hammer", "potion", "dagger"]}
+{"name": "Tarzan", "race": "elve", "class": "druid", "items": ["boots", "trident", "food", "ring"]}
+{"name": "Tattycoram", "race": "human", "class": "ranger", "items": ["ring", "food", "familiar"]}
+{"name": "Suky Tawdry", "race": "orc", "class": "paladin", "items": ["breasplate", "helmet", "bow", "axe"]}
+{"name": "Lady Teazle", "race": "elve", "class": "druid", "items": ["bag", "food", "rope"]}
+{"name": "William Tell", "race": "human", "class": "barbarian", "items": ["dagger", "trident", "familiar"]}
+{"name": "Becky Thatcher", "race": "orc", "class": "wizard", "items": ["crossbow", "sling", "sword", "shield"]}
+{"name": "Thomas Bigger", "race": "goblin", "class": "cleric", "items": ["potion", "hammer", "pauldran", "sling"]}
+{"name": "Thomas the Tank Engine", "race": "bugbear", "class": "necromancer", "items": ["trident", "sword", "sling", "bag"]}
+{"name": "Sadie Thompson", "race": "dragonborn", "class": "paladin", "items": ["dagger", "potion", "trident", "boots"]}
+{"name": "Christopher Tietjens", "race": "uruk", "class": "barbarian", "items": ["mace", "pauldran", "hammer", "staff"]}
+{"name": "Tinker Bell", "race": "bugbear", "class": "sorcerer", "items": ["mace", "pauldran", "staff"]}
+{"name": "Titania", "race": "teifling", "class": "barbarian", "items": ["bracers", "hammer", "axe", "familiar"]}
+{"name": "Tituba", "race": "halfling", "class": "druid", "items": ["trident", "flail", "hammer", "crossbow"]}
+{"name": "Topsy", "race": "bugbear", "class": "barbarian", "items": ["pauldran", "potion", "bag"]}
+{"name": "Tristan", "race": "halfling", "class": "wizard", "items": ["bracers", "ring", "hammer", "breasplate", "bow"]}
+{"name": "Betsey Trotwood", "race": "dragonborn", "class": "thief", "items": ["pauldran", "amulet", "rope"]}
+{"name": "Sergeant Francis Troy", "race": "bugbear", "class": "wizard", "items": ["breasplate", "trident", "axe"]}
+{"name": "Tweedledum and Tweedledee", "race": "halfling", "class": "thief", "items": ["helmet", "ring", "spear", "sword"]}
+{"name": "Oliver Twist", "race": "orc", "class": "necromancer", "items": ["flail", "hammer", "shield", "bow", "trident"]}
+{"name": "Uncle Tom", "race": "dwarf", "class": "sorcerer", "items": ["mace", "sling", "rope"]}
+{"name": "Urizen", "race": "elve", "class": "barbarian", "items": ["pauldran", "spear", "mace"]}
+{"name": "Jean Valjean", "race": "uruk", "class": "sorcerer", "items": ["staff", "bag", "sword", "amulet"]}
+{"name": "Valmont", "race": "uruk", "class": "thief", "items": ["helmet", "rope", "food"]}
+{"name": "Philo Vance", "race": "halfling", "class": "necromancer", "items": ["staff", "dagger", "bow"]}
+{"name": "Dolly Varden", "race": "dragonborn", "class": "necromancer", "items": ["axe", "bracers", "hammer"]}
+{"name": "Varner family", "race": "teifling", "class": "druid", "items": ["rope", "boots", "bow"]}
+{"name": "Diggory Venn", "race": "uruk", "class": "barbarian", "items": ["pauldran", "amulet", "bow", "axe", "breasplate"]}
+{"name": "Captain Vere", "race": "orc", "class": "thief", "items": ["amulet", "breasplate", "sling"]}
+{"name": "Rosamond Vincy", "race": "orc", "class": "thief", "items": ["pauldran", "crossbow", "helmet"]}
+{"name": "Viola", "race": "orc", "class": "druid", "items": ["boots", "amulet", "pauldran", "food"]}
+{"name": "Count Aleksey Vronsky", "race": "teifling", "class": "ranger", "items": ["breasplate", "staff", "bow", "sword"]}
+{"name": "Eustacia Vye", "race": "orc", "class": "cleric", "items": ["flail", "bow", "hammer"]}
+{"name": "Dr. Watson", "race": "goblin", "class": "necromancer", "items": ["pauldran", "crossbow", "boots", "potion", "food"]}
+{"name": "Weird Sisters", "race": "goblin", "class": "necromancer", "items": ["food", "boots", "flail", "helmet", "trident"]}
+{"name": "Sam Weller", "race": "dragonborn", "class": "thief", "items": ["pauldran", "rope", "bracers", "hammer"]}
+{"name": "Frederick Wentworth", "race": "human", "class": "paladin", "items": ["staff", "sling", "sword", "hammer"]}
+{"name": "Werther", "race": "elve", "class": "wizard", "items": ["sling", "bow", "shield", "ring"]}
+{"name": "Sophia Western", "race": "elve", "class": "necromancer", "items": ["bag", "pauldran"]}
+{"name": "Simon Wheeler", "race": "elve", "class": "paladin", "items": ["crossbow", "helmet", "hammer", "rope"]}
+{"name": "White Rabbit", "race": "orc", "class": "necromancer", "items": ["ring", "amulet", "sword"]}
+{"name": "Agnes Wickfield", "race": "human", "class": "cleric", "items": ["mace", "boots", "breasplate"]}
+{"name": "Tom Wilcher", "race": "human", "class": "wizard", "items": ["trident", "mace", "axe", "sword", "sling"]}
+{"name": "Damon Wildeve", "race": "dragonborn", "class": "ranger", "items": ["crossbow", "hammer", "familiar", "axe"]}
+{"name": "Pudd'nhead Wilson", "race": "teifling", "class": "wizard", "items": ["axe", "trident", "helmet", "sling"]}
+{"name": "Lord Peter Wimsey", "race": "human", "class": "druid", "items": ["bag", "hammer", "pauldran", "sword"]}
+{"name": "Wingfield family", "race": "teifling", "class": "paladin", "items": ["shield", "dagger", "flail", "crossbow"]}
+{"name": "Wise Men of Gotham", "race": "elve", "class": "cleric", "items": ["boots", "helmet", "ring", "axe", "crossbow"]}
+{"name": "Wolfdietrich", "race": "dwarf", "class": "paladin", "items": ["bag", "potion", "amulet"]}
+{"name": "Nero Wolfe", "race": "elve", "class": "paladin", "items": ["rope", "bag", "food", "dagger"]}
+{"name": "Emma Woodhouse", "race": "dwarf", "class": "cleric", "items": ["mace", "pauldran", "staff"]}
+{"name": "Bertie Wooster", "race": "dwarf", "class": "ranger", "items": ["hammer", "helmet", "potion", "flail"]}
+{"name": "Clym Yeobright", "race": "elve", "class": "warrior", "items": ["trident", "breasplate", "flail", "bag"]}
+{"name": "Captain John Yossarian", "race": "halfling", "class": "ranger", "items": ["dagger", "sling", "bow", "sword"]}
+{"name": "Zorro", "race": "teifling", "class": "barbarian", "items": ["spear", "staff", "food"]}
+{"name": "Abaet", "race": "orc", "class": "necromancer", "items": ["ring", "boots", "food", "rope"]}
+{"name": "Abarden", "race": "bugbear", "class": "barbarian", "items": ["staff", "hammer", "dagger", "helmet", "crossbow"]}
+{"name": "Aboloft", "race": "dragonborn", "class": "paladin", "items": ["trident", "crossbow", "amulet", "helmet"]}
+{"name": "Acamen", "race": "human", "class": "ranger", "items": ["bag", "mace", "crossbow", "shield"]}
+{"name": "Achard", "race": "goblin", "class": "barbarian", "items": ["bracers", "axe", "rope", "familiar"]}
+{"name": "Ackmard", "race": "dwarf", "class": "warrior", "items": ["pauldran", "familiar", "staff", "sling", "shield"]}
+{"name": "Adeen", "race": "teifling", "class": "paladin", "items": ["helmet", "sword", "bow", "sling"]}
+{"name": "Aerden", "race": "human", "class": "ranger", "items": ["dagger", "sling", "rope"]}
+{"name": "Afflon", "race": "uruk", "class": "druid", "items": ["boots", "amulet", "sword", "food", "pauldran"]}
+{"name": "Aghon", "race": "uruk", "class": "necromancer", "items": ["bow", "hammer", "mace", "ring"]}
+{"name": "Agnar", "race": "goblin", "class": "necromancer", "items": ["bag", "axe", "spear"]}
+{"name": "Ahalfar", "race": "dragonborn", "class": "thief", "items": ["helmet", "axe", "pauldran"]}
+{"name": "Ahburn", "race": "dragonborn", "class": "ranger", "items": ["dagger", "pauldran", "amulet"]}
+{"name": "Ahdun", "race": "elve", "class": "paladin", "items": ["shield", "breasplate", "potion"]}
+{"name": "Aidan", "race": "teifling", "class": "sorcerer", "items": ["bracers", "bow", "mace"]}
+{"name": "Airen", "race": "orc", "class": "thief", "items": ["familiar", "pauldran", "bracers"]}
+{"name": "Airis", "race": "dragonborn", "class": "druid", "items": ["boots", "hammer", "food"]}
+{"name": "Albright", "race": "human", "class": "thief", "items": ["bracers", "pauldran", "hammer", "sling"]}
+{"name": "Aldaren", "race": "dwarf", "class": "druid", "items": ["potion", "trident", "ring", "breasplate", "hammer"]}
+{"name": "Alderman", "race": "dragonborn", "class": "warrior", "items": ["axe", "potion", "crossbow", "pauldran", "staff"]}
+{"name": "Aldren", "race": "human", "class": "paladin", "items": ["trident", "mace", "boots"]}
+{"name": "Alkirk", "race": "orc", "class": "barbarian", "items": ["axe", "ring", "shield"]}
+{"name": "Allso", "race": "halfling", "class": "cleric", "items": ["bow", "dagger", "flail"]}
+{"name": "Amerdan", "race": "halfling", "class": "druid", "items": ["mace", "potion", "bow"]}
+{"name": "Amitel", "race": "elve", "class": "cleric", "items": ["food", "dagger", "bow", "familiar", "bracers"]}
+{"name": "Anfar", "race": "orc", "class": "barbarian", "items": ["bow", "food", "mace", "sling"]}
+{"name": "Anumi", "race": "human", "class": "warrior", "items": ["shield", "bag", "bow", "ring"]}
+{"name": "Anumil", "race": "dragonborn", "class": "paladin", "items": ["axe", "sling", "crossbow", "sword"]}
+{"name": "Asden", "race": "elve", "class": "sorcerer", "items": ["bow", "amulet", "sling"]}
+{"name": "Asdern", "race": "halfling", "class": "sorcerer", "items": ["breasplate", "bag", "axe"]}
+{"name": "Asen", "race": "dwarf", "class": "cleric", "items": ["shield", "crossbow", "amulet"]}
+{"name": "Aslan", "race": "teifling", "class": "warrior", "items": ["ring", "trident", "potion", "dagger"]}
+{"name": "Atar", "race": "uruk", "class": "thief", "items": ["hammer", "boots", "staff", "familiar"]}
+{"name": "Atgur", "race": "orc", "class": "wizard", "items": ["axe", "bag", "rope", "breasplate"]}
+{"name": "Atlin", "race": "human", "class": "thief", "items": ["spear", "dagger"]}
+{"name": "Auchfor", "race": "bugbear", "class": "wizard", "items": ["amulet", "rope", "breasplate", "boots"]}
+{"name": "Auden", "race": "teifling", "class": "barbarian", "items": ["crossbow", "rope", "bracers"]}
+{"name": "Ault", "race": "elve", "class": "cleric", "items": ["amulet", "hammer", "crossbow", "breasplate", "dagger"]}
+{"name": "Ayrie", "race": "teifling", "class": "wizard", "items": ["rope", "breasplate", "amulet"]}
+{"name": "Aysen", "race": "halfling", "class": "warrior", "items": ["axe", "pauldran", "shield"]}
+{"name": "Bacohl", "race": "elve", "class": "necromancer", "items": ["flail", "breasplate", "familiar"]}
+{"name": "Badeek", "race": "elve", "class": "warrior", "items": ["helmet", "rope", "boots", "staff"]}
+{"name": "Baduk", "race": "goblin", "class": "thief", "items": ["hammer", "flail", "shield", "familiar", "bag"]}
+{"name": "Balati", "race": "dwarf", "class": "cleric", "items": ["sling", "rope", "staff"]}
+{"name": "Baradeer", "race": "orc", "class": "paladin", "items": ["bag", "ring", "familiar"]}
+{"name": "Barkydle", "race": "dwarf", "class": "thief", "items": ["helmet", "pauldran", "bag"]}
+{"name": "Basden", "race": "dragonborn", "class": "thief", "items": ["helmet", "flail", "ring", "axe"]}
+{"name": "Bayde", "race": "uruk", "class": "necromancer", "items": ["hammer", "amulet", "dagger", "shield"]}
+{"name": "Beck", "race": "dragonborn", "class": "cleric", "items": ["bracers", "rope", "amulet"]}
+{"name": "Bedic", "race": "dwarf", "class": "paladin", "items": ["amulet", "spear"]}
+{"name": "Beeron", "race": "orc", "class": "wizard", "items": ["sling", "axe", "trident", "familiar"]}
+{"name": "Bein", "race": "human", "class": "necromancer", "items": ["pauldran", "trident", "sword", "familiar", "flail"]}
+{"name": "Beson", "race": "teifling", "class": "druid", "items": ["staff", "pauldran", "helmet", "dagger", "bracers"]}
+{"name": "Besur", "race": "dragonborn", "class": "paladin", "items": ["axe", "familiar", "shield", "trident"]}
+{"name": "Besurlde", "race": "dwarf", "class": "sorcerer", "items": ["rope", "dagger", "trident"]}
+{"name": "Bewul", "race": "dragonborn", "class": "ranger", "items": ["sword", "flail", "trident"]}
+{"name": "Biedgar", "race": "orc", "class": "barbarian", "items": ["pauldran", "mace", "potion", "food"]}
+{"name": "Bildon", "race": "orc", "class": "paladin", "items": ["sword", "mace", "ring", "bracers"]}
+{"name": "Biston", "race": "goblin", "class": "paladin", "items": ["food", "breasplate", "crossbow"]}
+{"name": "Bithon", "race": "teifling", "class": "paladin", "items": ["boots", "breasplate", "spear"]}
+{"name": "Boal", "race": "bugbear", "class": "warrior", "items": ["spear", "bag"]}
+{"name": "Boaldelr", "race": "halfling", "class": "paladin", "items": ["bow", "bag", "spear", "bracers"]}
+{"name": "Bolrock", "race": "human", "class": "thief", "items": ["dagger", "sling", "food", "pauldran"]}
+{"name": "Brakdern", "race": "teifling", "class": "necromancer", "items": ["helmet", "dagger", "amulet"]}
+{"name": "Breanon", "race": "bugbear", "class": "cleric", "items": ["axe", "bow", "amulet", "dagger"]}
+{"name": "Bredere", "race": "orc", "class": "barbarian", "items": ["boots", "pauldran", "flail", "crossbow", "potion"]}
+{"name": "Bredin", "race": "orc", "class": "necromancer", "items": ["familiar", "bracers", "trident", "spear", "amulet"]}
+{"name": "Bredock", "race": "bugbear", "class": "barbarian", "items": ["axe", "bracers", "sword"]}
+{"name": "Breen", "race": "elve", "class": "barbarian", "items": ["ring", "breasplate", "trident", "sword", "staff"]}
+{"name": "Brighton", "race": "elve", "class": "necromancer", "items": ["staff", "helmet", "bow"]}
+{"name": "Bristan", "race": "human", "class": "necromancer", "items": ["dagger", "breasplate", "bracers"]}
+{"name": "Buchmeid", "race": "uruk", "class": "cleric", "items": ["bracers", "potion", "breasplate", "hammer", "axe"]}
+{"name": "Bue", "race": "dragonborn", "class": "thief", "items": ["potion", "shield", "pauldran", "hammer", "trident"]}
+{"name": "Busma", "race": "dragonborn", "class": "thief", "items": ["axe", "breasplate", "sling", "hammer"]}
+{"name": "Buthomar", "race": "dwarf", "class": "wizard", "items": ["rope", "crossbow", "familiar", "breasplate"]}
+{"name": "Bydern", "race": "dragonborn", "class": "paladin", "items": ["pauldran", "amulet"]}
+{"name": "Caelholdt", "race": "elve", "class": "ranger", "items": ["food", "spear", "sling"]}
+{"name": "Cainon", "race": "goblin", "class": "ranger", "items": ["breasplate", "spear", "shield", "trident", "bag"]}
+{"name": "Calden", "race": "goblin", "class": "druid", "items": ["shield", "bag", "hammer", "ring", "dagger"]}
+{"name": "Camchak", "race": "human", "class": "warrior", "items": ["rope", "shield", "bag", "ring"]}
+{"name": "Camilde", "race": "dragonborn", "class": "thief", "items": ["axe", "breasplate", "crossbow"]}
+{"name": "Cardon", "race": "human", "class": "wizard", "items": ["staff", "rope", "amulet"]}
+{"name": "Casden", "race": "uruk", "class": "necromancer", "items": ["shield", "crossbow", "breasplate"]}
+{"name": "Cayold", "race": "goblin", "class": "druid", "items": ["mace", "helmet", "spear", "sword"]}
+{"name": "Celbahr", "race": "teifling", "class": "cleric", "items": ["flail", "helmet", "mace"]}
+{"name": "Celorn", "race": "human", "class": "paladin", "items": ["ring", "mace", "sword", "flail"]}
+{"name": "Celthric", "race": "elve", "class": "ranger", "items": ["flail", "bow", "crossbow"]}
+{"name": "Cemark", "race": "human", "class": "thief", "items": ["crossbow", "familiar", "dagger", "spear"]}
+{"name": "Cerdern", "race": "halfling", "class": "barbarian", "items": ["bag", "breasplate"]}
+{"name": "Cespar", "race": "elve", "class": "necromancer", "items": ["shield", "dagger", "crossbow"]}
+{"name": "Cether", "race": "elve", "class": "druid", "items": ["hammer", "shield", "bracers"]}
+{"name": "Cevelt", "race": "dragonborn", "class": "wizard", "items": ["crossbow", "spear", "breasplate", "food"]}
+{"name": "Chamon", "race": "orc", "class": "druid", "items": ["spear", "breasplate", "boots"]}
+{"name": "Chesmarn", "race": "teifling", "class": "warrior", "items": ["pauldran", "mace", "amulet"]}
+{"name": "Chidak", "race": "elve", "class": "druid", "items": ["bag", "sword", "familiar"]}
+{"name": "Cibrock", "race": "goblin", "class": "wizard", "items": ["helmet", "pauldran"]}
+{"name": "Cipyar", "race": "dragonborn", "class": "wizard", "items": ["potion", "familiar", "bag"]}
+{"name": "Ciroc", "race": "goblin", "class": "wizard", "items": ["bag", "bracers", "familiar", "boots"]}
+{"name": "Codern", "race": "human", "class": "paladin", "items": ["bracers", "sword", "bag", "pauldran"]}
+{"name": "Colthan", "race": "halfling", "class": "paladin", "items": ["flail", "spear", "boots", "pauldran", "shield"]}
+{"name": "Connell", "race": "bugbear", "class": "druid", "items": ["staff", "trident"]}
+{"name": "Cordale", "race": "orc", "class": "necromancer", "items": ["shield", "trident", "bow"]}
+{"name": "Cos", "race": "uruk", "class": "paladin", "items": ["sling", "bow", "shield", "crossbow"]}
+{"name": "Cosdeer", "race": "human", "class": "thief", "items": ["ring", "shield", "mace", "sword", "familiar"]}
+{"name": "Cuparun", "race": "human", "class": "warrior", "items": ["sword", "staff", "mace"]}
+{"name": "Cusmirk", "race": "bugbear", "class": "warrior", "items": ["familiar", "helmet", "dagger"]}
+{"name": "Cydare", "race": "human", "class": "thief", "items": ["shield", "dagger", "rope", "crossbow"]}
+{"name": "Cylmar", "race": "dragonborn", "class": "cleric", "items": ["bracers", "sword", "amulet", "shield"]}
+{"name": "Cythnar", "race": "goblin", "class": "ranger", "items": ["amulet", "breasplate", "boots"]}
+{"name": "Cyton", "race": "dwarf", "class": "wizard", "items": ["flail", "food", "ring"]}
+{"name": "Daburn", "race": "dwarf", "class": "ranger", "items": ["amulet", "mace", "familiar", "sword"]}
+{"name": "Daermod", "race": "orc", "class": "ranger", "items": ["flail", "staff", "shield"]}
+{"name": "Dak", "race": "goblin", "class": "cleric", "items": ["pauldran", "potion", "sling", "amulet"]}
+{"name": "Dakamon", "race": "dwarf", "class": "wizard", "items": ["axe", "familiar", "bracers"]}
+{"name": "Dakkone", "race": "teifling", "class": "warrior", "items": ["familiar", "flail", "rope", "bag"]}
+{"name": "Dalburn", "race": "dwarf", "class": "warrior", "items": ["breasplate", "food", "crossbow"]}
+{"name": "Dalmarn", "race": "orc", "class": "ranger", "items": ["mace", "bracers", "potion", "familiar", "sling"]}
+{"name": "Dapvhir", "race": "elve", "class": "wizard", "items": ["food", "ring", "amulet", "hammer"]}
+{"name": "Darkboon", "race": "uruk", "class": "thief", "items": ["boots", "shield", "crossbow", "bow", "trident"]}
+{"name": "Darkkon", "race": "human", "class": "wizard", "items": ["boots", "pauldran", "flail", "mace"]}
+{"name": "Darko", "race": "orc", "class": "thief", "items": ["mace", "axe", "hammer", "helmet"]}
+{"name": "Darkspur", "race": "dwarf", "class": "warrior", "items": ["rope", "ring"]}
+{"name": "Darmor", "race": "bugbear", "class": "druid", "items": ["potion", "food", "staff", "bracers"]}
+{"name": "Darpick", "race": "halfling", "class": "warrior", "items": ["helmet", "axe", "shield", "bow", "potion"]}
+{"name": "Dasbeck", "race": "goblin", "class": "warrior", "items": ["food", "rope", "hammer", "sword"]}
+{"name": "Dask", "race": "goblin", "class": "paladin", "items": ["pauldran", "shield", "rope", "familiar"]}
+{"name": "Deathmar", "race": "teifling", "class": "warrior", "items": ["flail", "sling", "familiar", "food"]}
+{"name": "Defearon", "race": "halfling", "class": "cleric", "items": ["mace", "flail", "spear"]}
+{"name": "Derik", "race": "bugbear", "class": "cleric", "items": ["bag", "mace", "potion", "rope", "axe"]}
+{"name": "Derrin", "race": "dragonborn", "class": "cleric", "items": ["potion", "pauldran", "dagger"]}
+{"name": "Desil", "race": "halfling", "class": "druid", "items": ["dagger", "axe", "potion", "helmet", "sling"]}
+{"name": "Dessfar", "race": "halfling", "class": "barbarian", "items": ["food", "crossbow", "potion", "dagger", "sling"]}
+{"name": "Dinfar", "race": "dragonborn", "class": "sorcerer", "items": ["shield", "sword", "bracers"]}
+{"name": "Dismer", "race": "elve", "class": "ranger", "items": ["mace", "spear", "staff", "bag"]}
+{"name": "Doceon", "race": "uruk", "class": "wizard", "items": ["flail", "potion", "breasplate"]}
+{"name": "Dochrohan", "race": "dragonborn", "class": "sorcerer", "items": ["shield", "potion", "staff", "bow", "dagger"]}
+{"name": "Dokoran", "race": "human", "class": "cleric", "items": ["amulet", "boots", "sling", "bag"]}
+{"name": "Dorn", "race": "teifling", "class": "sorcerer", "items": ["hammer", "crossbow", "familiar"]}
+{"name": "Dosoman", "race": "orc", "class": "barbarian", "items": ["bow", "bracers", "rope"]}
+{"name": "Drakoe", "race": "halfling", "class": "thief", "items": ["spear", "mace", "ring", "potion", "sling"]}
+{"name": "Drakone", "race": "elve", "class": "barbarian", "items": ["sling", "flail", "trident", "boots"]}
+{"name": "Drandon", "race": "human", "class": "warrior", "items": ["crossbow", "spear", "dagger", "breasplate"]}
+{"name": "Drit", "race": "bugbear", "class": "warrior", "items": ["axe", "bow", "helmet", "bracers", "breasplate"]}
+{"name": "Dritz", "race": "goblin", "class": "cleric", "items": ["boots", "ring", "pauldran"]}
+{"name": "Drophar", "race": "elve", "class": "warrior", "items": ["food", "amulet", "crossbow", "rope", "breasplate"]}
+{"name": "Dryden", "race": "halfling", "class": "necromancer", "items": ["breasplate", "mace", "shield", "bow"]}
+{"name": "Dryn", "race": "orc", "class": "sorcerer", "items": ["familiar", "helmet", "shield"]}
+{"name": "Duba", "race": "uruk", "class": "necromancer", "items": ["hammer", "sling", "dagger", "flail"]}
+{"name": "Dukran", "race": "uruk", "class": "thief", "items": ["amulet", "spear", "breasplate", "familiar"]}
+{"name": "Duran", "race": "uruk", "class": "necromancer", "items": ["spear", "sling", "bag"]}
+{"name": "Durmark", "race": "halfling", "class": "ranger", "items": ["dagger", "crossbow", "bracers", "ring"]}
+{"name": "Dusaro", "race": "bugbear", "class": "ranger", "items": ["pauldran", "breasplate", "amulet"]}
+{"name": "Dyfar", "race": "bugbear", "class": "thief", "items": ["sword", "shield", "bow"]}
+{"name": "Dyten", "race": "uruk", "class": "druid", "items": ["food", "sword", "potion"]}
+{"name": "Eard", "race": "human", "class": "ranger", "items": ["bow", "amulet", "mace", "rope", "helmet"]}
+{"name": "Eckard", "race": "teifling", "class": "cleric", "items": ["axe", "amulet", "mace", "ring"]}
+{"name": "Efamar", "race": "goblin", "class": "paladin", "items": ["familiar", "rope", "axe", "dagger"]}
+{"name": "Efar", "race": "orc", "class": "ranger", "items": ["breasplate", "amulet", "mace"]}
+{"name": "Egmardern", "race": "bugbear", "class": "barbarian", "items": ["pauldran", "breasplate", "boots"]}
+{"name": "Eiridan", "race": "dwarf", "class": "wizard", "items": ["staff", "rope", "mace", "sling"]}
+{"name": "Ekgamut", "race": "teifling", "class": "barbarian", "items": ["spear", "sword", "food"]}
+{"name": "Eli", "race": "elve", "class": "cleric", "items": ["shield", "ring", "sword", "familiar", "hammer"]}
+{"name": "Elik", "race": "bugbear", "class": "druid", "items": ["trident", "staff", "hammer", "breasplate", "amulet"]}
+{"name": "Elson", "race": "dragonborn", "class": "warrior", "items": ["bracers", "sling", "potion"]}
+{"name": "Elthin", "race": "dragonborn", "class": "druid", "items": ["dagger", "bracers", "mace", "bag"]}
+{"name": "Enbane", "race": "orc", "class": "druid", "items": ["food", "crossbow", "axe", "helmet"]}
+{"name": "Endor", "race": "elve", "class": "sorcerer", "items": ["breasplate", "amulet", "spear", "dagger"]}
+{"name": "Enidin", "race": "bugbear", "class": "druid", "items": ["staff", "familiar", "spear", "breasplate"]}
+{"name": "Enoon", "race": "uruk", "class": "paladin", "items": ["crossbow", "trident", "food", "breasplate"]}
+{"name": "Enro", "race": "orc", "class": "sorcerer", "items": ["rope", "mace", "helmet"]}
+{"name": "Erikarn", "race": "uruk", "class": "thief", "items": ["sword", "potion"]}
+{"name": "Erim", "race": "uruk", "class": "ranger", "items": ["boots", "hammer", "staff", "flail", "spear"]}
+{"name": "Eritai", "race": "teifling", "class": "ranger", "items": ["crossbow", "ring", "hammer", "bow", "familiar"]}
+{"name": "Escariet", "race": "dragonborn", "class": "warrior", "items": ["boots", "hammer", "breasplate", "sling", "pauldran"]}
+{"name": "Espardo", "race": "dwarf", "class": "barbarian", "items": ["helmet", "staff", "breasplate"]}
+{"name": "Etar", "race": "human", "class": "thief", "items": ["shield", "mace", "boots", "helmet"]}
+{"name": "Etburn", "race": "orc", "class": "barbarian", "items": ["pauldran", "sling", "shield", "axe", "helmet"]}
+{"name": "Etdar", "race": "teifling", "class": "necromancer", "items": ["mace", "pauldran", "bow"]}
+{"name": "Ethen", "race": "bugbear", "class": "barbarian", "items": ["axe", "rope", "breasplate", "amulet"]}
+{"name": "Etmere", "race": "uruk", "class": "wizard", "items": ["potion", "flail", "ring"]}
+{"name": "Etran", "race": "dwarf", "class": "ranger", "items": ["crossbow", "bag", "spear", "dagger", "trident"]}
+{"name": "Eythil", "race": "human", "class": "barbarian", "items": ["staff", "crossbow", "hammer"]}
+{"name": "Faoturk", "race": "human", "class": "cleric", "items": ["breasplate", "crossbow", "bow", "ring"]}
+{"name": "Faowind", "race": "goblin", "class": "thief", "items": ["dagger", "sling", "ring"]}
+{"name": "Fearlock", "race": "bugbear", "class": "ranger", "items": ["boots", "crossbow", "potion", "trident"]}
+{"name": "Fenrirr", "race": "goblin", "class": "thief", "items": ["flail", "axe", "dagger"]}
+{"name": "Fetmar", "race": "elve", "class": "barbarian", "items": ["breasplate", "bow", "mace"]}
+{"name": "Feturn", "race": "bugbear", "class": "thief", "items": ["bow", "axe", "amulet"]}
+{"name": "Ficadon", "race": "uruk", "class": "necromancer", "items": ["familiar", "helmet", "spear"]}
+{"name": "Fickfylo", "race": "elve", "class": "paladin", "items": ["sling", "hammer", "potion", "sword", "rope"]}
+{"name": "Fildon", "race": "teifling", "class": "thief", "items": ["staff", "axe", "bag", "rope"]}
+{"name": "Firedorn", "race": "halfling", "class": "barbarian", "items": ["trident", "dagger", "crossbow", "pauldran"]}
+{"name": "Firiro", "race": "uruk", "class": "ranger", "items": ["crossbow", "bag", "shield"]}
+{"name": "Floran", "race": "orc", "class": "sorcerer", "items": ["helmet", "bracers", "mace"]}
+{"name": "Folmard", "race": "halfling", "class": "sorcerer", "items": ["bag", "rope", "staff", "shield"]}
+{"name": "Fraderk", "race": "teifling", "class": "paladin", "items": ["shield", "breasplate", "sword"]}
+{"name": "Fronar", "race": "human", "class": "barbarian", "items": ["boots", "trident", "sword"]}
+{"name": "Fydar", "race": "bugbear", "class": "thief", "items": ["mace", "crossbow", "flail", "boots"]}
+{"name": "Fyn", "race": "orc", "class": "ranger", "items": ["crossbow", "shield", "food"]}
+{"name": "Gafolern", "race": "teifling", "class": "necromancer", "items": ["familiar", "sword"]}
+{"name": "Gai", "race": "bugbear", "class": "sorcerer", "items": ["sword", "hammer", "axe"]}
+{"name": "Galain", "race": "dragonborn", "class": "thief", "items": ["trident", "bracers", "rope", "bow"]}
+{"name": "Galiron", "race": "dragonborn", "class": "sorcerer", "items": ["axe", "helmet", "mace", "food", "bag"]}
+{"name": "Gametris", "race": "elve", "class": "thief", "items": ["flail", "sword", "potion", "rope"]}
+{"name": "Gauthus", "race": "uruk", "class": "paladin", "items": ["helmet", "amulet", "crossbow"]}
+{"name": "Gemardt", "race": "dragonborn", "class": "necromancer", "items": ["potion", "spear", "hammer"]}
+{"name": "Gemedern", "race": "halfling", "class": "necromancer", "items": ["trident", "dagger", "potion", "familiar"]}
+{"name": "Gemedes", "race": "uruk", "class": "necromancer", "items": ["axe", "familiar", "crossbow"]}
+{"name": "Gerirr", "race": "dwarf", "class": "druid", "items": ["spear", "rope", "staff", "sling"]}
+{"name": "Geth", "race": "halfling", "class": "necromancer", "items": ["bow", "shield", "amulet"]}
+{"name": "Gib", "race": "uruk", "class": "necromancer", "items": ["spear", "rope", "sword"]}
+{"name": "Gibolock", "race": "uruk", "class": "sorcerer", "items": ["hammer", "crossbow", "boots"]}
+{"name": "Gibolt", "race": "uruk", "class": "wizard", "items": ["potion", "food", "boots", "helmet"]}
+{"name": "Gith", "race": "orc", "class": "warrior", "items": ["familiar", "hammer", "spear", "flail", "mace"]}
+{"name": "Gom", "race": "elve", "class": "barbarian", "items": ["sling", "rope", "familiar"]}
+{"name": "Gosford", "race": "human", "class": "paladin", "items": ["pauldran", "bow", "flail"]}
+{"name": "Gothar", "race": "goblin", "class": "sorcerer", "items": ["helmet", "amulet", "rope"]}
+{"name": "Gothikar", "race": "human", "class": "paladin", "items": ["sling", "trident", "ring", "familiar"]}
+{"name": "Gresforn", "race": "goblin", "class": "thief", "items": ["food", "staff", "spear", "shield", "potion"]}
+{"name": "Grimie", "race": "dwarf", "class": "necromancer", "items": ["staff", "sword", "familiar", "amulet"]}
+{"name": "Gryn", "race": "human", "class": "paladin", "items": ["axe", "bow", "crossbow", "rope", "boots"]}
+{"name": "Gundir", "race": "human", "class": "warrior", "items": ["ring", "mace", "staff", "trident", "hammer"]}
+{"name": "Gustov", "race": "orc", "class": "thief", "items": ["helmet", "breasplate", "potion"]}
+{"name": "Guthale", "race": "orc", "class": "barbarian", "items": ["potion", "pauldran", "flail", "bracers"]}
+{"name": "Gybol", "race": "teifling", "class": "thief", "items": ["dagger", "staff", "helmet", "mace", "sword"]}
+{"name": "Gybrush", "race": "dragonborn", "class": "sorcerer", "items": ["food", "staff", "flail", "bag"]}
+{"name": "Gyin", "race": "dragonborn", "class": "paladin", "items": ["sling", "trident", "boots", "flail", "staff"]}
+{"name": "Halmar", "race": "human", "class": "druid", "items": ["sling", "sword", "helmet"]}
+{"name": "Harrenhal", "race": "bugbear", "class": "ranger", "items": ["rope", "bag", "axe", "breasplate"]}
+{"name": "Hasten", "race": "elve", "class": "wizard", "items": ["sling", "flail", "axe"]}
+{"name": "Hectar", "race": "uruk", "class": "sorcerer", "items": ["sling", "mace", "bag", "hammer"]}
+{"name": "Hecton", "race": "teifling", "class": "wizard", "items": ["bracers", "dagger", "spear", "trident"]}
+{"name": "Heramon", "race": "dragonborn", "class": "necromancer", "items": ["sling", "shield", "helmet"]}
+{"name": "Hermenze", "race": "uruk", "class": "warrior", "items": ["amulet", "hammer", "helmet", "breasplate", "trident"]}
+{"name": "Hermuck", "race": "elve", "class": "barbarian", "items": ["boots", "bow", "bag"]}
+{"name": "Hezak", "race": "elve", "class": "necromancer", "items": ["bag", "bracers", "amulet"]}
+{"name": "Hildale", "race": "goblin", "class": "paladin", "items": ["dagger", "boots", "pauldran", "staff"]}
+{"name": "Hildar", "race": "human", "class": "paladin", "items": ["helmet", "spear", "amulet", "flail"]}
+{"name": "Hileict", "race": "dwarf", "class": "warrior", "items": ["bag", "axe", "sling", "spear"]}
+{"name": "Hydale", "race": "bugbear", "class": "cleric", "items": ["ring", "hammer", "spear"]}
+{"name": "Hyten", "race": "dragonborn", "class": "sorcerer", "items": ["pauldran", "sling", "potion", "rope", "hammer"]}
+{"name": "Iarmod", "race": "uruk", "class": "druid", "items": ["axe", "boots", "rope", "amulet", "crossbow"]}
+{"name": "Idon", "race": "bugbear", "class": "paladin", "items": ["dagger", "familiar", "pauldran", "mace"]}
+{"name": "Ieli", "race": "elve", "class": "druid", "items": ["rope", "breasplate", "ring", "mace", "dagger"]}
+{"name": "Ieserk", "race": "halfling", "class": "sorcerer", "items": ["familiar", "food", "shield"]}
+{"name": "Ikar", "race": "halfling", "class": "thief", "items": ["boots", "trident", "crossbow", "food", "sword"]}
+{"name": "Ilgenar", "race": "human", "class": "barbarian", "items": ["food", "sling", "potion"]}
+{"name": "Illilorn", "race": "bugbear", "class": "ranger", "items": ["pauldran", "axe", "hammer", "bag"]}
+{"name": "Illium", "race": "goblin", "class": "barbarian", "items": ["pauldran", "staff", "spear", "sling"]}
+{"name": "Ingel", "race": "orc", "class": "necromancer", "items": ["rope", "helmet", "mace", "hammer"]}
+{"name": "Ipedorn", "race": "orc", "class": "ranger", "items": ["axe", "hammer", "bow", "trident"]}
+{"name": "Irefist", "race": "dwarf", "class": "wizard", "items": ["boots", "food", "bag", "breasplate"]}
+{"name": "Ironmark", "race": "teifling", "class": "sorcerer", "items": ["bow", "food"]}
+{"name": "Isen", "race": "dragonborn", "class": "sorcerer", "items": ["potion", "crossbow", "shield"]}
+{"name": "Isil", "race": "human", "class": "thief", "items": ["potion", "helmet", "pauldran"]}
+{"name": "Ithric", "race": "dragonborn", "class": "wizard", "items": ["sling", "crossbow", "hammer", "food", "trident"]}
+{"name": "Jackson", "race": "elve", "class": "ranger", "items": ["ring", "boots", "staff", "bag", "potion"]}
+{"name": "Jalil", "race": "human", "class": "sorcerer", "items": ["boots", "hammer", "pauldran"]}
+{"name": "Jamik", "race": "bugbear", "class": "paladin", "items": ["staff", "familiar", "crossbow"]}
+{"name": "Janus", "race": "dragonborn", "class": "wizard", "items": ["dagger", "spear", "hammer"]}
+{"name": "Jayco", "race": "human", "class": "ranger", "items": ["crossbow", "bow", "ring"]}
+{"name": "Jaython", "race": "elve", "class": "wizard", "items": ["rope", "potion", "bracers", "familiar"]}
+{"name": "Jesco", "race": "human", "class": "warrior", "items": ["sling", "rope", "pauldran", "helmet", "amulet"]}
+{"name": "Jespar", "race": "dragonborn", "class": "necromancer", "items": ["helmet", "sling", "spear", "dagger", "bag"]}
+{"name": "Jethil", "race": "bugbear", "class": "necromancer", "items": ["axe", "familiar", "shield"]}
+{"name": "Jex", "race": "elve", "class": "barbarian", "items": ["sling", "rope", "bag"]}
+{"name": "Jib", "race": "uruk", "class": "wizard", "items": ["spear", "axe", "ring"]}
+{"name": "Jibar", "race": "elve", "class": "cleric", "items": ["trident", "rope", "bracers"]}
+{"name": "Jin", "race": "human", "class": "cleric", "items": ["food", "bag", "ring", "sling"]}
+{"name": "Juktar", "race": "goblin", "class": "sorcerer", "items": ["staff", "hammer", "bow"]}
+{"name": "Julthor", "race": "bugbear", "class": "ranger", "items": ["bow", "breasplate", "axe", "dagger"]}
+{"name": "Jun", "race": "orc", "class": "warrior", "items": ["sling", "ring", "bracers", "shield", "helmet"]}
+{"name": "Justal", "race": "goblin", "class": "thief", "items": ["boots", "flail", "shield", "pauldran"]}
+{"name": "Kafar", "race": "goblin", "class": "cleric", "items": ["sling", "amulet", "food"]}
+{"name": "Kaldar", "race": "dwarf", "class": "barbarian", "items": ["dagger", "pauldran", "sword"]}
+{"name": "Kellan", "race": "human", "class": "cleric", "items": ["bracers", "trident", "axe"]}
+{"name": "Keran", "race": "dwarf", "class": "ranger", "items": ["axe", "familiar", "food"]}
+{"name": "Kesad", "race": "bugbear", "class": "necromancer", "items": ["bracers", "familiar", "potion", "flail"]}
+{"name": "Kesmon", "race": "orc", "class": "cleric", "items": ["flail", "pauldran", "bag", "crossbow"]}
+{"name": "Kethren", "race": "dwarf", "class": "wizard", "items": ["dagger", "ring", "amulet", "helmet", "boots"]}
+{"name": "Kib", "race": "dwarf", "class": "paladin", "items": ["dagger", "hammer", "bag"]}
+{"name": "Kibidon", "race": "orc", "class": "barbarian", "items": ["mace", "shield", "rope", "axe"]}
+{"name": "Kiden", "race": "elve", "class": "warrior", "items": ["bow", "flail", "shield", "bracers"]}
+{"name": "Kilbas", "race": "bugbear", "class": "ranger", "items": ["trident", "bow", "helmet", "flail"]}
+{"name": "Kilburn", "race": "dwarf", "class": "thief", "items": ["spear", "breasplate", "familiar"]}
+{"name": "Kildarien", "race": "uruk", "class": "cleric", "items": ["flail", "food", "amulet"]}
+{"name": "Kimdar", "race": "elve", "class": "paladin", "items": ["bow", "potion", "trident", "ring"]}
+{"name": "Kinorn", "race": "human", "class": "ranger", "items": ["bracers", "amulet", "bag", "hammer"]}
+{"name": "Kip", "race": "orc", "class": "cleric", "items": ["crossbow", "amulet", "shield", "familiar"]}
+{"name": "Kirder", "race": "dragonborn", "class": "barbarian", "items": ["shield", "crossbow", "amulet"]}
+{"name": "Kodof", "race": "teifling", "class": "thief", "items": ["boots", "rope", "sling", "ring"]}
+{"name": "Kolmorn", "race": "bugbear", "class": "wizard", "items": ["amulet", "shield", "mace"]}
+{"name": "Kyrad", "race": "dwarf", "class": "barbarian", "items": ["shield", "trident", "breasplate", "bracers", "familiar"]}
+{"name": "Lackus", "race": "human", "class": "warrior", "items": ["breasplate", "staff", "shield"]}
+{"name": "Lacspor", "race": "halfling", "class": "barbarian", "items": ["hammer", "bag", "mace"]}
+{"name": "Laderic", "race": "bugbear", "class": "sorcerer", "items": ["hammer", "boots", "axe", "potion", "dagger"]}
+{"name": "Lafornon", "race": "human", "class": "ranger", "items": ["ring", "sword", "spear", "boots", "familiar"]}
+{"name": "Lahorn", "race": "human", "class": "sorcerer", "items": ["potion", "axe", "mace"]}
+{"name": "Laracal", "race": "elve", "class": "thief", "items": ["breasplate", "rope", "bow", "amulet"]}
+{"name": "Ledale", "race": "dwarf", "class": "wizard", "items": ["bow", "shield", "rope", "spear", "familiar"]}
+{"name": "Leit", "race": "uruk", "class": "druid", "items": ["bag", "sling", "hammer"]}
+{"name": "Lephar", "race": "orc", "class": "druid", "items": ["ring", "crossbow", "shield", "trident"]}
+{"name": "Lephidiles", "race": "halfling", "class": "thief", "items": ["bow", "flail", "dagger", "ring", "rope"]}
+{"name": "Lerin", "race": "dragonborn", "class": "paladin", "items": ["ring", "food", "pauldran", "bow"]}
+{"name": "Lesphares", "race": "dwarf", "class": "sorcerer", "items": ["potion", "bag", "hammer", "flail"]}
+{"name": "Letor", "race": "uruk", "class": "necromancer", "items": ["potion", "rope", "flail"]}
+{"name": "Lidorn", "race": "uruk", "class": "cleric", "items": ["staff", "ring", "helmet"]}
+{"name": "Lin", "race": "goblin", "class": "barbarian", "items": ["pauldran", "hammer", "shield"]}
+{"name": "Liphanes", "race": "elve", "class": "ranger", "items": ["amulet", "crossbow", "sword"]}
+{"name": "Loban", "race": "goblin", "class": "cleric", "items": ["axe", "potion", "shield"]}
+{"name": "Lox", "race": "bugbear", "class": "wizard", "items": ["familiar", "sword", "staff", "breasplate"]}
+{"name": "Ludokrin", "race": "elve", "class": "cleric", "items": ["flail", "familiar", "pauldran"]}
+{"name": "Luphildern", "race": "bugbear", "class": "paladin", "items": ["trident", "staff", "bracers", "food", "axe"]}
+{"name": "Lupin", "race": "human", "class": "thief", "items": ["ring", "dagger", "crossbow"]}
+{"name": "Lurd", "race": "bugbear", "class": "sorcerer", "items": ["pauldran", "trident", "bow", "dagger"]}
+{"name": "Macon", "race": "teifling", "class": "paladin", "items": ["shield", "bag", "bracers", "trident", "amulet"]}
+{"name": "Madarlon", "race": "human", "class": "ranger", "items": ["axe", "breasplate", "flail"]}
+{"name": "Mafar", "race": "bugbear", "class": "sorcerer", "items": ["familiar", "axe", "rope"]}
+{"name": "Marderdeen", "race": "uruk", "class": "druid", "items": ["crossbow", "breasplate", "flail", "rope"]}
+{"name": "Mardin", "race": "bugbear", "class": "necromancer", "items": ["sling", "potion", "sword", "hammer"]}
+{"name": "Markard", "race": "bugbear", "class": "ranger", "items": ["pauldran", "hammer", "bag", "axe"]}
+{"name": "Markdoon", "race": "halfling", "class": "warrior", "items": ["breasplate", "crossbow", "familiar", "flail"]}
+{"name": "Marklin", "race": "goblin", "class": "druid", "items": ["shield", "trident", "food", "pauldran"]}
+{"name": "Mashasen", "race": "elve", "class": "barbarian", "items": ["flail", "staff", "bag"]}
+{"name": "Mathar", "race": "dragonborn", "class": "paladin", "items": ["axe", "breasplate", "hammer", "food", "spear"]}
+{"name": "Medarin", "race": "halfling", "class": "sorcerer", "items": ["spear", "hammer"]}
+{"name": "Medin", "race": "human", "class": "thief", "items": ["dagger", "flail", "bracers", "axe"]}
+{"name": "Mellamo", "race": "elve", "class": "cleric", "items": ["shield", "potion"]}
+{"name": "Meowol", "race": "uruk", "class": "paladin", "items": ["bag", "food", "sling"]}
+{"name": "Merdon", "race": "bugbear", "class": "druid", "items": ["amulet", "bow", "breasplate", "mace", "bracers"]}
+{"name": "Meridan", "race": "human", "class": "cleric", "items": ["sling", "helmet", "spear", "crossbow"]}
+{"name": "Merkesh", "race": "goblin", "class": "barbarian", "items": ["boots", "dagger", "bow", "pauldran", "breasplate"]}
+{"name": "Mesah", "race": "human", "class": "warrior", "items": ["hammer", "staff", "potion"]}
+{"name": "Mes'ard", "race": "halfling", "class": "ranger", "items": ["rope", "bow", "dagger", "breasplate"]}
+{"name": "Mesophan", "race": "goblin", "class": "necromancer", "items": ["crossbow", "axe", "sling"]}
+{"name": "Mesoton", "race": "elve", "class": "barbarian", "items": ["sling", "shield", "rope", "bow", "sword"]}
+{"name": "Mezo", "race": "goblin", "class": "druid", "items": ["sword", "familiar", "sling", "flail", "mace"]}
+{"name": "Michael", "race": "uruk", "class": "cleric", "items": ["hammer", "ring", "amulet"]}
+{"name": "Mick", "race": "bugbear", "class": "barbarian", "items": ["axe", "amulet", "spear"]}
+{"name": "Mickal", "race": "dwarf", "class": "paladin", "items": ["familiar", "staff", "boots", "shield"]}
+{"name": "Migorn", "race": "goblin", "class": "warrior", "items": ["food", "trident", "potion", "axe", "crossbow"]}
+{"name": "Milo", "race": "bugbear", "class": "ranger", "items": ["hammer", "boots", "dagger", "pauldran", "staff"]}
+{"name": "Miphates", "race": "halfling", "class": "necromancer", "items": ["pauldran", "trident", "flail", "spear"]}
+{"name": "Mi'talrythin", "race": "uruk", "class": "barbarian", "items": ["sling", "mace", "breasplate"]}
+{"name": "Mitar", "race": "goblin", "class": "thief", "items": ["familiar", "helmet", "bracers"]}
+{"name": "Modric", "race": "dwarf", "class": "paladin", "items": ["crossbow", "rope"]}
+{"name": "Modum", "race": "uruk", "class": "ranger", "items": ["rope", "familiar", "trident", "boots", "mace"]}
+{"name": "Mudon", "race": "dwarf", "class": "ranger", "items": ["flail", "sword"]}
+{"name": "Mufar", "race": "orc", "class": "cleric", "items": ["rope", "dagger", "bag", "ring", "axe"]}
+{"name": "Mujarin", "race": "bugbear", "class": "druid", "items": ["breasplate", "flail", "food"]}
+{"name": "Mylo", "race": "goblin", "class": "ranger", "items": ["trident", "pauldran", "axe"]}
+{"name": "Mythik", "race": "halfling", "class": "cleric", "items": ["rope", "trident", "bracers"]}
+{"name": "Mythil", "race": "elve", "class": "barbarian", "items": ["shield", "bow", "bracers", "spear"]}
+{"name": "Nadeer", "race": "uruk", "class": "barbarian", "items": ["bracers", "rope", "flail"]}
+{"name": "Nalfar", "race": "dwarf", "class": "ranger", "items": ["ring", "boots", "pauldran", "sling"]}
+{"name": "Namorn", "race": "human", "class": "thief", "items": ["hammer", "amulet", "trident"]}
+{"name": "Naphates", "race": "halfling", "class": "wizard", "items": ["trident", "shield", "sword"]}
+{"name": "Neowyld", "race": "dragonborn", "class": "necromancer", "items": ["bow", "pauldran", "crossbow", "sword", "boots"]}
+{"name": "Nidale", "race": "teifling", "class": "barbarian", "items": ["staff", "sword", "amulet", "ring"]}
+{"name": "Nikpal", "race": "dragonborn", "class": "barbarian", "items": ["sling", "rope", "amulet", "spear", "bow"]}
+{"name": "Nikrolin", "race": "bugbear", "class": "cleric", "items": ["shield", "dagger", "potion", "mace"]}
+{"name": "Niktohal", "race": "orc", "class": "wizard", "items": ["boots", "spear", "amulet"]}
+{"name": "Niro", "race": "orc", "class": "ranger", "items": ["bracers", "helmet", "food", "trident", "staff"]}
+{"name": "Noford", "race": "bugbear", "class": "ranger", "items": ["axe", "food", "amulet"]}
+{"name": "Nothar", "race": "orc", "class": "ranger", "items": ["familiar", "bow", "crossbow", "dagger"]}
+{"name": "Nuthor", "race": "bugbear", "class": "wizard", "items": ["hammer", "axe", "spear"]}
+{"name": "Nuwolf", "race": "uruk", "class": "warrior", "items": ["sword", "boots", "shield", "amulet"]}
+{"name": "Nydale", "race": "bugbear", "class": "wizard", "items": ["potion", "staff", "axe"]}
+{"name": "Nythil", "race": "orc", "class": "paladin", "items": ["sword", "crossbow", "ring", "breasplate"]}
+{"name": "O\u2019tho", "race": "halfling", "class": "thief", "items": ["sling", "amulet", "hammer", "bow"]}
+{"name": "Ocarin", "race": "bugbear", "class": "cleric", "items": ["amulet", "ring", "flail", "bow", "helmet"]}
+{"name": "Occelot", "race": "elve", "class": "sorcerer", "items": ["axe", "staff", "potion", "ring"]}
+{"name": "Occhi", "race": "teifling", "class": "paladin", "items": ["ring", "potion", "bow", "bracers"]}
+{"name": "Odaren", "race": "bugbear", "class": "necromancer", "items": ["bow", "sword", "potion", "hammer", "amulet"]}
+{"name": "Odeir", "race": "goblin", "class": "cleric", "items": ["shield", "crossbow", "rope"]}
+{"name": "Ohethlic", "race": "elve", "class": "thief", "items": ["sword", "dagger"]}
+{"name": "Okar", "race": "teifling", "class": "paladin", "items": ["boots", "amulet", "ring", "staff", "axe"]}
+{"name": "Omaniron", "race": "bugbear", "class": "ranger", "items": ["mace", "breasplate", "shield", "crossbow"]}
+{"name": "Omarn", "race": "goblin", "class": "warrior", "items": ["food", "staff", "shield", "crossbow"]}
+{"name": "Orin", "race": "orc", "class": "necromancer", "items": ["staff", "food", "boots"]}
+{"name": "Ospar", "race": "dragonborn", "class": "warrior", "items": ["pauldran", "axe", "bag"]}
+{"name": "Othelen", "race": "bugbear", "class": "wizard", "items": ["bow", "dagger", "potion"]}
+{"name": "Oxbaren", "race": "halfling", "class": "thief", "items": ["shield", "sling", "helmet"]}
+{"name": "Padan", "race": "bugbear", "class": "ranger", "items": ["helmet", "rope", "potion", "dagger"]}
+{"name": "Palid", "race": "orc", "class": "wizard", "items": ["boots", "potion", "bow", "trident"]}
+{"name": "Papur", "race": "goblin", "class": "necromancer", "items": ["axe", "crossbow", "food", "potion"]}
+{"name": "Peitar", "race": "goblin", "class": "warrior", "items": ["familiar", "pauldran", "breasplate"]}
+{"name": "Pelphides", "race": "uruk", "class": "wizard", "items": ["spear", "bow", "ring", "bracers"]}
+{"name": "Pender", "race": "elve", "class": "ranger", "items": ["amulet", "helmet", "rope", "staff"]}
+{"name": "Pendus", "race": "elve", "class": "necromancer", "items": ["breasplate", "bracers", "hammer"]}
+{"name": "Perder", "race": "halfling", "class": "thief", "items": ["mace", "food"]}
+{"name": "Perol", "race": "bugbear", "class": "necromancer", "items": ["breasplate", "boots", "trident", "flail"]}
+{"name": "Phairdon", "race": "uruk", "class": "warrior", "items": ["breasplate", "amulet", "hammer"]}
+{"name": "Phemedes", "race": "dwarf", "class": "druid", "items": ["staff", "bow", "rope", "familiar", "flail"]}
+{"name": "Phexides", "race": "human", "class": "thief", "items": ["hammer", "sword", "potion"]}
+{"name": "Phoenix", "race": "dwarf", "class": "paladin", "items": ["axe", "mace", "pauldran"]}
+{"name": "Picon", "race": "bugbear", "class": "barbarian", "items": ["familiar", "rope", "helmet"]}
+{"name": "Pictal", "race": "goblin", "class": "necromancer", "items": ["rope", "trident", "helmet", "amulet", "boots"]}
+{"name": "Picumar", "race": "dwarf", "class": "thief", "items": ["bracers", "ring", "dagger", "familiar"]}
+{"name": "Pildoor", "race": "teifling", "class": "thief", "items": ["flail", "bag", "potion"]}
+{"name": "Pixdale", "race": "goblin", "class": "thief", "items": ["familiar", "staff"]}
+{"name": "Ponith", "race": "elve", "class": "druid", "items": ["sling", "amulet", "axe", "bracers"]}
+{"name": "Poran", "race": "bugbear", "class": "necromancer", "items": ["pauldran", "boots", "familiar", "spear", "mace"]}
+{"name": "Poscidion", "race": "dragonborn", "class": "paladin", "items": ["boots", "sling", "potion", "breasplate"]}
+{"name": "Prothalon", "race": "halfling", "class": "ranger", "items": ["bag", "crossbow", "pauldran", "mace"]}
+{"name": "Puthor", "race": "human", "class": "wizard", "items": ["bracers", "dagger", "mace", "staff"]}
+{"name": "Pyder", "race": "human", "class": "sorcerer", "items": ["sling", "boots", "spear", "potion", "rope"]}
+{"name": "Qeisan", "race": "bugbear", "class": "cleric", "items": ["sword", "crossbow", "sling", "flail"]}
+{"name": "Qidan", "race": "dragonborn", "class": "barbarian", "items": ["axe", "helmet", "amulet", "rope"]}
+{"name": "Quiad", "race": "halfling", "class": "paladin", "items": ["flail", "dagger", "axe", "ring"]}
+{"name": "Quid", "race": "dwarf", "class": "necromancer", "items": ["flail", "amulet", "food", "bow", "sling"]}
+{"name": "Quiss", "race": "dwarf", "class": "wizard", "items": ["bracers", "breasplate", "spear", "ring"]}
+{"name": "Qupar", "race": "bugbear", "class": "thief", "items": ["familiar", "food", "mace"]}
+{"name": "Qysan", "race": "dragonborn", "class": "necromancer", "items": ["trident", "sling", "bracers", "food"]}
+{"name": "Radag'mal", "race": "elve", "class": "cleric", "items": ["flail", "sword", "food", "hammer", "spear"]}
+{"name": "Randar", "race": "elve", "class": "necromancer", "items": ["shield", "crossbow", "mace", "ring", "spear"]}
+{"name": "Raysdan", "race": "dragonborn", "class": "necromancer", "items": ["breasplate", "trident", "boots", "axe"]}
+{"name": "Rayth", "race": "orc", "class": "warrior", "items": ["dagger", "sling", "bracers", "sword", "mace"]}
+{"name": "Reaper", "race": "teifling", "class": "thief", "items": ["helmet", "bracers", "breasplate", "bow"]}
+{"name": "Resboron", "race": "dwarf", "class": "paladin", "items": ["amulet", "trident", "flail"]}
+{"name": "Reth", "race": "bugbear", "class": "ranger", "items": ["mace", "shield", "dagger"]}
+{"name": "Rethik", "race": "goblin", "class": "necromancer", "items": ["boots", "spear", "dagger"]}
+{"name": "Rhithik", "race": "dragonborn", "class": "sorcerer", "items": ["helmet", "amulet", "rope", "dagger"]}
+{"name": "Rhithin", "race": "teifling", "class": "thief", "items": ["sling", "spear", "mace"]}
+{"name": "Rhysling", "race": "uruk", "class": "sorcerer", "items": ["flail", "food", "bow"]}
+{"name": "Riandur", "race": "elve", "class": "thief", "items": ["flail", "boots", "pauldran"]}
+{"name": "Rikar", "race": "halfling", "class": "barbarian", "items": ["dagger", "sling", "amulet", "helmet", "bow"]}
+{"name": "Rismak", "race": "elve", "class": "cleric", "items": ["flail", "potion", "mace", "crossbow"]}
+{"name": "Riss", "race": "uruk", "class": "barbarian", "items": ["hammer", "potion", "axe", "mace"]}
+{"name": "Ritic", "race": "halfling", "class": "druid", "items": ["flail", "amulet", "rope"]}
+{"name": "Rogeir", "race": "halfling", "class": "thief", "items": ["dagger", "bow", "sword", "shield"]}
+{"name": "Rogist", "race": "uruk", "class": "wizard", "items": ["breasplate", "dagger", "amulet", "bag", "hammer"]}
+{"name": "Rogoth", "race": "dwarf", "class": "warrior", "items": ["amulet", "sword", "ring", "familiar"]}
+{"name": "Rophan", "race": "bugbear", "class": "necromancer", "items": ["ring", "spear", "sling"]}
+{"name": "Rulrindale", "race": "dragonborn", "class": "necromancer", "items": ["potion", "familiar", "crossbow", "sling", "bag"]}
+{"name": "Rydan", "race": "bugbear", "class": "paladin", "items": ["dagger", "helmet", "shield", "bow", "bracers"]}
+{"name": "Ryfar", "race": "dwarf", "class": "warrior", "items": ["crossbow", "spear", "mace", "amulet"]}
+{"name": "Ryfar", "race": "orc", "class": "wizard", "items": ["ring", "bracers", "spear"]}
+{"name": "Ryodan", "race": "bugbear", "class": "thief", "items": ["pauldran", "potion", "bag"]}
+{"name": "Rysdan", "race": "teifling", "class": "sorcerer", "items": ["helmet", "bag", "dagger"]}
+{"name": "Rythen", "race": "teifling", "class": "sorcerer", "items": ["bag", "helmet", "mace"]}
+{"name": "Rythern", "race": "goblin", "class": "barbarian", "items": ["bow", "food", "staff"]}
+{"name": "Sabal", "race": "teifling", "class": "cleric", "items": ["amulet", "sling", "food", "dagger", "mace"]}
+{"name": "Sadareen", "race": "goblin", "class": "wizard", "items": ["axe", "trident", "hammer", "amulet"]}
+{"name": "Safilix", "race": "dwarf", "class": "thief", "items": ["crossbow", "rope", "bracers", "trident", "boots"]}
+{"name": "Samon", "race": "human", "class": "cleric", "items": ["ring", "bow", "food", "crossbow", "flail"]}
+{"name": "Samot", "race": "elve", "class": "cleric", "items": ["axe", "flail", "sword"]}
+{"name": "Sasic", "race": "dwarf", "class": "sorcerer", "items": ["familiar", "potion", "boots", "mace"]}
+{"name": "Scoth", "race": "dwarf", "class": "thief", "items": ["bag", "potion"]}
+{"name": "Scythe", "race": "bugbear", "class": "wizard", "items": ["sling", "bag", "staff"]}
+{"name": "Secor", "race": "halfling", "class": "paladin", "items": ["shield", "sling", "food"]}
+{"name": "Sed", "race": "human", "class": "sorcerer", "items": ["crossbow", "bag", "trident"]}
+{"name": "Sedar", "race": "bugbear", "class": "thief", "items": ["ring", "rope", "bag", "spear"]}
+{"name": "Senick", "race": "elve", "class": "sorcerer", "items": ["breasplate", "axe", "sling", "spear"]}
+{"name": "Senthyril", "race": "human", "class": "barbarian", "items": ["dagger", "amulet", "breasplate", "spear", "pauldran"]}
+{"name": "Serin", "race": "halfling", "class": "thief", "items": ["food", "trident", "bow", "potion"]}
+{"name": "Sermak", "race": "dwarf", "class": "paladin", "items": ["bow", "pauldran", "mace"]}
+{"name": "Seryth", "race": "halfling", "class": "cleric", "items": ["sword", "boots"]}
+{"name": "Sesmidat", "race": "human", "class": "sorcerer", "items": ["bag", "amulet", "axe", "bow"]}
+{"name": "Seth", "race": "dragonborn", "class": "necromancer", "items": ["sword", "staff"]}
+{"name": "Setlo", "race": "uruk", "class": "barbarian", "items": ["familiar", "breasplate", "amulet", "spear", "flail"]}
+{"name": "Shade", "race": "dragonborn", "class": "warrior", "items": ["breasplate", "helmet", "axe", "dagger"]}
+{"name": "Shadowbane", "race": "human", "class": "wizard", "items": ["bracers", "bag", "sling", "spear"]}
+{"name": "Shane", "race": "halfling", "class": "cleric", "items": ["amulet", "bag", "rope", "bow", "boots"]}
+{"name": "Shard", "race": "teifling", "class": "thief", "items": ["rope", "pauldran", "shield", "food"]}
+{"name": "Shardo", "race": "goblin", "class": "paladin", "items": ["food", "familiar", "crossbow", "rope", "sword"]}
+{"name": "Shillen", "race": "uruk", "class": "paladin", "items": ["bow", "familiar", "pauldran", "breasplate"]}
+{"name": "Silco", "race": "dwarf", "class": "necromancer", "items": ["ring", "food", "axe", "helmet"]}
+{"name": "Sildo", "race": "goblin", "class": "cleric", "items": ["bow", "food", "staff", "rope"]}
+{"name": "Sil'forrin", "race": "halfling", "class": "barbarian", "items": ["spear", "familiar", "axe"]}
+{"name": "Silpal", "race": "bugbear", "class": "necromancer", "items": ["mace", "spear", "familiar", "flail", "shield"]}
+{"name": "Sithik", "race": "orc", "class": "warrior", "items": ["dagger", "amulet", "potion"]}
+{"name": "Soderman", "race": "dwarf", "class": "cleric", "items": ["flail", "amulet", "pauldran"]}
+{"name": "Sothale", "race": "uruk", "class": "ranger", "items": ["crossbow", "food", "bag", "flail"]}
+{"name": "Staph", "race": "bugbear", "class": "paladin", "items": ["familiar", "helmet", "trident", "axe", "amulet"]}
+{"name": "Stenwulf", "race": "goblin", "class": "necromancer", "items": ["bow", "sword", "mace"]}
+{"name": "Steven", "race": "halfling", "class": "thief", "items": ["boots", "flail", "trident"]}
+{"name": "Suktor", "race": "bugbear", "class": "necromancer", "items": ["flail", "food", "ring"]}
+{"name": "Suth", "race": "halfling", "class": "cleric", "items": ["bow", "ring"]}
+{"name": "Sutlin", "race": "orc", "class": "warrior", "items": ["spear", "breasplate", "rope", "ring", "helmet"]}
+{"name": "Syr", "race": "goblin", "class": "necromancer", "items": ["boots", "helmet", "axe", "bag", "pauldran"]}
+{"name": "Syth", "race": "orc", "class": "barbarian", "items": ["bag", "trident", "crossbow", "mace"]}
+{"name": "Sythril", "race": "uruk", "class": "ranger", "items": ["bag", "pauldran", "bracers", "flail"]}
+{"name": "Talberon", "race": "elve", "class": "necromancer", "items": ["food", "trident", "ring"]}
+{"name": "Telpur", "race": "elve", "class": "paladin", "items": ["rope", "flail", "amulet", "dagger", "sling"]}
+{"name": "Temil", "race": "halfling", "class": "warrior", "items": ["spear", "bow", "axe"]}
+{"name": "Temilfist", "race": "dragonborn", "class": "wizard", "items": ["helmet", "pauldran", "axe", "bracers"]}
+{"name": "Tempist", "race": "dragonborn", "class": "cleric", "items": ["flail", "helmet", "familiar"]}
+{"name": "Teslanar", "race": "bugbear", "class": "thief", "items": ["potion", "familiar", "dagger", "hammer"]}
+{"name": "Tespar", "race": "dwarf", "class": "necromancer", "items": ["staff", "bag", "crossbow"]}
+{"name": "Tessino", "race": "elve", "class": "ranger", "items": ["trident", "ring", "staff", "familiar"]}
+{"name": "Tethran", "race": "uruk", "class": "barbarian", "items": ["helmet", "bag", "flail"]}
+{"name": "Thiltran", "race": "bugbear", "class": "necromancer", "items": ["flail", "pauldran", "food", "shield", "axe"]}
+{"name": "Tholan", "race": "human", "class": "barbarian", "items": ["staff", "amulet", "bag", "mace"]}
+{"name": "Tibers", "race": "dragonborn", "class": "thief", "items": ["sling", "ring", "food", "axe"]}
+{"name": "Tibolt", "race": "human", "class": "necromancer", "items": ["sling", "bracers", "rope"]}
+{"name": "Ticharol", "race": "bugbear", "class": "cleric", "items": ["hammer", "helmet", "boots", "flail"]}
+{"name": "Tilner", "race": "goblin", "class": "wizard", "items": ["staff", "mace", "crossbow"]}
+{"name": "Tithan", "race": "orc", "class": "paladin", "items": ["axe", "hammer", "food", "pauldran", "sword"]}
+{"name": "Tobale", "race": "dwarf", "class": "druid", "items": ["helmet", "boots", "potion", "dagger", "trident"]}
+{"name": "Tol\u2019Solie", "race": "elve", "class": "sorcerer", "items": ["amulet", "spear", "hammer"]}
+{"name": "Tolle", "race": "uruk", "class": "barbarian", "items": ["familiar", "potion", "axe", "breasplate"]}
+{"name": "Tolsar", "race": "teifling", "class": "druid", "items": ["breasplate", "familiar", "amulet", "food", "trident"]}
+{"name": "Toma", "race": "teifling", "class": "cleric", "items": ["helmet", "sling", "pauldran"]}
+{"name": "Tothale", "race": "orc", "class": "druid", "items": ["helmet", "bracers", "rope", "hammer"]}
+{"name": "Tousba", "race": "teifling", "class": "ranger", "items": ["sword", "rope", "familiar", "boots", "axe"]}
+{"name": "Towerlock", "race": "human", "class": "necromancer", "items": ["bow", "bag", "sword"]}
+{"name": "Tuk", "race": "elve", "class": "thief", "items": ["breasplate", "spear", "bracers"]}
+{"name": "Tuscanar", "race": "goblin", "class": "sorcerer", "items": ["flail", "shield", "axe", "amulet", "food"]}
+{"name": "Tusdar", "race": "dragonborn", "class": "sorcerer", "items": ["hammer", "boots", "amulet"]}
+{"name": "Tyden", "race": "elve", "class": "cleric", "items": ["staff", "potion", "dagger"]}
+{"name": "Uerthe", "race": "teifling", "class": "barbarian", "items": ["helmet", "boots", "bracers", "staff"]}
+{"name": "Ugmar", "race": "human", "class": "sorcerer", "items": ["hammer", "bag", "sling"]}
+{"name": "Uhrd", "race": "bugbear", "class": "cleric", "items": ["potion", "hammer", "shield"]}
+{"name": "Undin", "race": "dwarf", "class": "thief", "items": ["amulet", "ring", "flail", "pauldran", "rope"]}
+{"name": "Updar", "race": "human", "class": "wizard", "items": ["helmet", "food", "ring", "crossbow"]}
+{"name": "Uther", "race": "bugbear", "class": "barbarian", "items": ["helmet", "bracers", "ring", "food"]}
+{"name": "Vaccon", "race": "bugbear", "class": "sorcerer", "items": ["helmet", "trident", "amulet", "bow", "sling"]}
+{"name": "Vacone", "race": "orc", "class": "paladin", "items": ["boots", "sword", "trident", "potion"]}
+{"name": "Valkeri", "race": "halfling", "class": "necromancer", "items": ["bow", "hammer", "axe", "rope"]}
+{"name": "Valynard", "race": "dwarf", "class": "sorcerer", "items": ["amulet", "food", "ring"]}
+{"name": "Vectomon", "race": "uruk", "class": "necromancer", "items": ["trident", "flail"]}
+{"name": "Veldahar", "race": "elve", "class": "ranger", "items": ["sling", "potion", "crossbow", "rope", "food"]}
+{"name": "Vespar", "race": "bugbear", "class": "thief", "items": ["bracers", "spear", "flail"]}
+{"name": "Vethelot", "race": "human", "class": "druid", "items": ["familiar", "food", "amulet", "spear", "mace"]}
+{"name": "Victor", "race": "goblin", "class": "sorcerer", "items": ["potion", "pauldran", "crossbow", "spear"]}
+{"name": "Vider", "race": "halfling", "class": "thief", "items": ["crossbow", "ring", "dagger"]}
+{"name": "Vigoth", "race": "teifling", "class": "necromancer", "items": ["shield", "familiar"]}
+{"name": "Vilan", "race": "elve", "class": "wizard", "items": ["shield", "rope", "staff"]}
+{"name": "Vildar", "race": "halfling", "class": "barbarian", "items": ["crossbow", "helmet", "sword", "rope"]}
+{"name": "Vinald", "race": "goblin", "class": "wizard", "items": ["bow", "sling", "sword", "shield"]}
+{"name": "Vinkolt", "race": "bugbear", "class": "sorcerer", "items": ["food", "crossbow", "boots"]}
+{"name": "Virde", "race": "human", "class": "paladin", "items": ["hammer", "shield", "amulet", "potion"]}
+{"name": "Voltain", "race": "bugbear", "class": "paladin", "items": ["bracers", "pauldran", "helmet"]}
+{"name": "Volux", "race": "bugbear", "class": "barbarian", "items": ["helmet", "amulet", "crossbow", "spear"]}
+{"name": "Voudim", "race": "dragonborn", "class": "sorcerer", "items": ["helmet", "axe", "amulet"]}
+{"name": "Vythethi", "race": "human", "class": "warrior", "items": ["amulet", "bow"]}
+{"name": "Wak\u2019dern", "race": "dragonborn", "class": "thief", "items": ["food", "pauldran"]}
+{"name": "Walkar", "race": "orc", "class": "thief", "items": ["staff", "bag", "sling"]}
+{"name": "Wanar", "race": "uruk", "class": "paladin", "items": ["sword", "boots", "trident"]}
+{"name": "Wekmar", "race": "elve", "class": "thief", "items": ["crossbow", "flail", "food", "sling", "staff"]}
+{"name": "Werymn", "race": "orc", "class": "sorcerer", "items": ["flail", "amulet", "bag", "mace"]}
+{"name": "Weshin", "race": "teifling", "class": "paladin", "items": ["bow", "spear", "breasplate", "rope"]}
+{"name": "William", "race": "teifling", "class": "thief", "items": ["mace", "sword", "sling"]}
+{"name": "Willican", "race": "dwarf", "class": "thief", "items": ["crossbow", "amulet", "flail", "bow"]}
+{"name": "Wilte", "race": "halfling", "class": "ranger", "items": ["spear", "crossbow", "familiar", "potion"]}
+{"name": "Wiltmar", "race": "teifling", "class": "paladin", "items": ["pauldran", "potion", "shield", "familiar"]}
+{"name": "Wishane", "race": "halfling", "class": "ranger", "items": ["bag", "food", "mace"]}
+{"name": "Witfar", "race": "bugbear", "class": "ranger", "items": ["boots", "shield", "bag"]}
+{"name": "Wrathran", "race": "orc", "class": "sorcerer", "items": ["pauldran", "food", "staff"]}
+{"name": "Wraythe", "race": "uruk", "class": "sorcerer", "items": ["breasplate", "mace", "bag", "familiar"]}
+{"name": "Wuthmon", "race": "human", "class": "thief", "items": ["bow", "amulet", "bracers", "bag"]}
+{"name": "Wyder", "race": "bugbear", "class": "sorcerer", "items": ["bracers", "potion", "breasplate", "sling"]}
+{"name": "Wyeth", "race": "uruk", "class": "cleric", "items": ["shield", "crossbow", "rope", "dagger"]}
+{"name": "Wyvorn", "race": "dragonborn", "class": "wizard", "items": ["dagger", "crossbow", "food"]}
+{"name": "Xander", "race": "human", "class": "cleric", "items": ["hammer", "rope", "crossbow"]}
+{"name": "Xavier", "race": "goblin", "class": "cleric", "items": ["helmet", "shield", "staff", "trident", "amulet"]}
+{"name": "Xenil", "race": "goblin", "class": "warrior", "items": ["axe", "sword", "rope", "dagger"]}
+{"name": "Xex", "race": "dwarf", "class": "thief", "items": ["mace", "spear", "rope", "breasplate"]}
+{"name": "Xithyl", "race": "bugbear", "class": "thief", "items": ["axe", "ring", "mace"]}
+{"name": "Xuio", "race": "goblin", "class": "warrior", "items": ["bow", "ring", "spear"]}
+{"name": "Y\u2019reth", "race": "teifling", "class": "cleric", "items": ["hammer", "familiar", "flail"]}
+{"name": "Yabaro", "race": "uruk", "class": "druid", "items": ["potion", "crossbow", "dagger"]}
+{"name": "Yepal", "race": "human", "class": "ranger", "items": ["bracers", "pauldran", "ring", "helmet"]}
+{"name": "Yesirn", "race": "halfling", "class": "warrior", "items": ["pauldran", "amulet", "crossbow", "breasplate", "hammer"]}
+{"name": "Yssik", "race": "elve", "class": "wizard", "items": ["bag", "familiar", "ring"]}
+{"name": "Yssith", "race": "elve", "class": "thief", "items": ["familiar", "bag", "hammer", "spear", "pauldran"]}
+{"name": "Zak", "race": "human", "class": "barbarian", "items": ["hammer", "sword", "ring"]}
+{"name": "Zakarn", "race": "dragonborn", "class": "wizard", "items": ["helmet", "spear", "shield"]}
+{"name": "Zecane", "race": "orc", "class": "cleric", "items": ["amulet", "crossbow", "bow", "breasplate"]}
+{"name": "Zeke", "race": "orc", "class": "wizard", "items": ["ring", "potion", "sword"]}
+{"name": "Zerin", "race": "goblin", "class": "barbarian", "items": ["helmet", "trident", "familiar"]}
+{"name": "Zessfar", "race": "teifling", "class": "druid", "items": ["bag", "flail", "crossbow", "bracers", "hammer"]}
+{"name": "Zidar", "race": "elve", "class": "cleric", "items": ["dagger", "breasplate"]}
+{"name": "Zigmal", "race": "human", "class": "druid", "items": ["dagger", "rope", "axe", "bracers", "trident"]}
+{"name": "Zile", "race": "bugbear", "class": "ranger", "items": ["bag", "potion", "spear", "bow"]}
+{"name": "Zilocke", "race": "halfling", "class": "barbarian", "items": ["bracers", "potion", "staff"]}
+{"name": "Zio", "race": "human", "class": "sorcerer", "items": ["crossbow", "bag", "bow"]}
+{"name": "Zoru", "race": "human", "class": "warrior", "items": ["bracers", "hammer", "trident", "sling", "rope"]}
+{"name": "Zotar", "race": "teifling", "class": "druid", "items": ["breasplate", "flail", "bag"]}
+{"name": "Zutar", "race": "dragonborn", "class": "sorcerer", "items": ["trident", "staff", "helmet", "breasplate"]}
+{"name": "Zyten", "race": "human", "class": "druid", "items": ["ring", "boots", "crossbow", "helmet", "trident"]}
