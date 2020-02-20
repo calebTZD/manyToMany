@@ -52,6 +52,16 @@
     $("#race").val(character.race);
     $("#guild").val(character.guild);
     curId = character.id
+    $.post("/caleb/api.php/item/readItems", function(data, status){
+      if(status == "sucess"){
+        var options = "";
+        $.each(data, function(index, item){
+          options +='<option value="'+item.iname+'">'+item.iname+'</option>';
+        });
+        $('#itemList').append(options)
+      
+      }
+    });
   }
   function renderItemEdit(ieditIdx){
     $("#overlay").show();
@@ -66,6 +76,8 @@
     $("#editItem").hide();
     $("#createPerson").hide();
     $("#createItm").hide();
+    $("#readCharacter").hide();
+
   }
   function save(){
     let saveobj = {
@@ -444,7 +456,6 @@ function getSortedTable(idx = 0, cnt = 25){
     <button type="button" onclick="next()" id="next">Next</button> 
   </div>
   <div id="overlay">
-
   </div>
   <div id="edit">
     <input type="text" id="pname">
@@ -452,6 +463,9 @@ function getSortedTable(idx = 0, cnt = 25){
     <input type="text" id="race">
    
     <input type="text" id="guild">
+    <select id="itemList" name="items">
+      <option value="null">Item</option>
+    </select>
     
     <button onclick="closeEdit()">Close</button>
     <button onclick="save()">Save</button>
@@ -481,10 +495,10 @@ function getSortedTable(idx = 0, cnt = 25){
     <label id="imessage"></label>
   </div>
   <div id="readCharacter">
+    <button onclick="closeEdit()">Close</button>
     <label id="rpname">asdf</label>
     <label id="rrace">fasd</label>
     <label id="rguild">fdsa</label>
-    
   </div>
 </body>
 </html>
