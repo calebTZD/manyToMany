@@ -4,11 +4,13 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
   <title>Many to many</title>
-    <link rel="stylesheet" href="styles.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script>
   
-    const count = 25;
+  const count = 25;
   var index = 0;
   var characters = [];
   var items = [];
@@ -54,11 +56,13 @@
     curId = character.id
     $.post("/caleb/api.php/item/readItems", function(data, status){
       if(status == "sucess"){
-        var options = "";
-        $.each(data, function(index, item){
-          options +='<option value="'+item.iname+'">'+item.iname+'</option>';
+        var options = '';
+        $.each(JSON.parse(data), function(index, item){
+          // options +='<option value="'+item.iname+'">'+item.iname+'</option>';
+          $('#itemList').append('<option value="'+item.iname+'">'+item.iname+'</option>');
         });
-        $('#itemList').append(options)
+        $('#itemList').hide().show();
+        // $('#itemList').append(options).selectpicker('refresh');
       
       }
     });
@@ -463,7 +467,7 @@ function getSortedTable(idx = 0, cnt = 25){
     <input type="text" id="race">
    
     <input type="text" id="guild">
-    <select id="itemList" name="items">
+    <select class="custom-select custom-select-lg" id="itemList" name="items">
       <option value="null">Item</option>
     </select>
     
