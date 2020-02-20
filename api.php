@@ -73,9 +73,59 @@ switch ($resource) {
                 }
 
                 break;
-            default:
-                send404Response("Operation not found");
-                break;
+                case 'sortCharDown' :
+                    $idx = htmlspecialchars($_GET["idx"]);
+                    $cnt = htmlspecialchars($_GET["cnt"]);
+                    $data = readCharactersDown($idx, $cnt);
+                    if($data){
+                        sendResponseData($data);
+                    } else {
+                        sendErrorResponse("Character not found");
+                    }
+                    break;
+                case 'sortRaceDown' :
+                    $idx = htmlspecialchars($_GET["idx"]);
+                    $cnt = htmlspecialchars($_GET["cnt"]);
+                    $data = readRaceDown($idx, $cnt);
+                    if($data){
+                        sendResponseData($data);
+                    } else {
+                        sendErrorResponse("Character not found");
+                    }
+                    break;
+                case 'sortRaceUp' :
+                    $idx = htmlspecialchars($_GET["idx"]);
+                    $cnt = htmlspecialchars($_GET["cnt"]);
+                    $data = readRace($idx, $cnt);
+                    if($data){
+                        sendResponseData($data);
+                    } else {
+                        sendErrorResponse("Character not found");
+                    }
+                    break;
+                case 'sortClassDown' :
+                    $idx = htmlspecialchars($_GET["idx"]);
+                    $cnt = htmlspecialchars($_GET["cnt"]);
+                    $data = readClassDown($idx, $cnt);
+                    if($data){
+                        sendResponseData($data);
+                    } else {
+                        sendErrorResponse("Character not found");
+                    }
+                    break;
+                case 'sortClassUp' :
+                    $idx = htmlspecialchars($_GET["idx"]);
+                    $cnt = htmlspecialchars($_GET["cnt"]);
+                    $data = readClass($idx, $cnt);
+                    if($data){
+                        sendResponseData($data);
+                    } else {
+                        sendErrorResponse("Character not found");
+                    }
+                    break;
+                default:
+                    send404Response("Operation not found");
+                    break;
         }        
         break;
     case 'item' :

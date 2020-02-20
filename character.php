@@ -35,6 +35,127 @@ function readCharacters($idx, $cnt) {
     mysqli_close($dbConn);
     return $characters;
 }
+
+function readCharactersDown($idx, $cnt) {
+    $characters = array();
+    $dbConn = getConnection();
+
+    // run query 
+    $sql = 'SELECT * FROM `players` ORDER BY `pname` DESC LIMIT '.$idx.','.$cnt;
+    // echo $sql;
+    if (!$result = $dbConn->query($sql)) {
+        // TODO: remove error printing
+        $err = "Error Query: " . $sql . "\n" .
+                "Errno: " . $dbConn->errno . "\n" . 
+                "Error: " . $dbConn->error . "\n";
+        echo $err;
+        return NULL;
+    }
+
+    
+    while ($row = $result->fetch_assoc()) {  
+        $characters[] = $row; 
+    }
+    mysqli_close($dbConn);
+    return $characters;
+}
+
+function readRaceDown($idx, $cnt) {
+    $characters = array();
+    $dbConn = getConnection();
+
+    // run query 
+    $sql = 'SELECT * FROM `players` ORDER BY `race` DESC LIMIT '.$idx.','.$cnt;
+    // echo $sql;
+    if (!$result = $dbConn->query($sql)) {
+        // TODO: remove error printing
+        $err = "Error Query: " . $sql . "\n" .
+                "Errno: " . $dbConn->errno . "\n" . 
+                "Error: " . $dbConn->error . "\n";
+        echo $err;
+        return NULL;
+    }
+
+    
+    while ($row = $result->fetch_assoc()) {  
+        $characters[] = $row; 
+    }
+    mysqli_close($dbConn);
+    return $characters;
+}
+
+function readRace($idx, $cnt) {
+    $characters = array();
+    $dbConn = getConnection();
+
+    // run query 
+    $sql = 'SELECT * FROM `players` ORDER BY `race` LIMIT '.$idx.','.$cnt;
+    // echo $sql;
+    if (!$result = $dbConn->query($sql)) {
+        // TODO: remove error printing
+        $err = "Error Query: " . $sql . "\n" .
+                "Errno: " . $dbConn->errno . "\n" . 
+                "Error: " . $dbConn->error . "\n";
+        echo $err;
+        return NULL;
+    }
+
+    
+    while ($row = $result->fetch_assoc()) {  
+        $characters[] = $row; 
+    }
+    mysqli_close($dbConn);
+    return $characters;
+}
+
+function readClassDown($idx, $cnt) {
+    $characters = array();
+    $dbConn = getConnection();
+
+    // run query 
+    $sql = 'SELECT * FROM `players` ORDER BY `guild` DESC LIMIT '.$idx.','.$cnt;
+    // echo $sql;
+    if (!$result = $dbConn->query($sql)) {
+        // TODO: remove error printing
+        $err = "Error Query: " . $sql . "\n" .
+                "Errno: " . $dbConn->errno . "\n" . 
+                "Error: " . $dbConn->error . "\n";
+        echo $err;
+        return NULL;
+    }
+
+    
+    while ($row = $result->fetch_assoc()) {  
+        $characters[] = $row; 
+    }
+    mysqli_close($dbConn);
+    return $characters;
+}
+
+function readClass($idx, $cnt) {
+    $characters = array();
+    $dbConn = getConnection();
+
+    // run query 
+    $sql = 'SELECT * FROM `players` ORDER BY `guild` LIMIT '.$idx.','.$cnt;
+    // echo $sql;
+    if (!$result = $dbConn->query($sql)) {
+        // TODO: remove error printing
+        $err = "Error Query: " . $sql . "\n" .
+                "Errno: " . $dbConn->errno . "\n" . 
+                "Error: " . $dbConn->error . "\n";
+        echo $err;
+        return NULL;
+    }
+
+    
+    while ($row = $result->fetch_assoc()) {  
+        $characters[] = $row; 
+    }
+    mysqli_close($dbConn);
+    return $characters;
+}
+
 function searchCharacters($idx, $cnt, $pstr) {
     $characters = array();
     $dbConn = getConnection();
