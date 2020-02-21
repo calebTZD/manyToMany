@@ -22,8 +22,10 @@ switch ($resource) {
                 $race = htmlspecialchars($_POST["race"]);
                 $guild = htmlspecialchars($_POST["guild"]);
                 $id = htmlspecialchars($_POST["id"]);
+                $item = htmlspecialchars($_POST["item"]);
                                     
                 $data = insert($pname, $race, $guild, $id);
+                $data2 = insertIntoMtable($id, $item);
                 if($data){
                     sendResponseData($data);
                 } else {
@@ -35,8 +37,10 @@ switch ($resource) {
                 $race = htmlspecialchars($_POST["race"]);
                 $guild = htmlspecialchars($_POST["guild"]);
                 $id = htmlspecialchars($_POST["id"]);
+                $item = htmlspecialchars($_POST["item"]);
 
                 $data = update($pname, $race, $guild, $id);
+                $data2 = insertIntoMtable($id, $item);
                 if($data){
                     sendResponseData($data);
                 } else {

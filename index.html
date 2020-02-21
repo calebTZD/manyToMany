@@ -76,14 +76,17 @@
     $("#createPerson").hide();
     $("#createItm").hide();
     $("#readCharacter").hide();
-
+    $('#charItems').remove();
   }
   function save(){
+    var selectBox = document.getElementById("itemList");
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
     let saveobj = {
       'pname': $("#pname").val(),
       'race': $("#race").val(),
       'guild': $("#guild").val(),
-      'id': curId
+      'id': curId,
+      'item': selectedValue
     }
     $.post("/caleb/api.php/character/update/", saveobj, function(data, status){
       if(status == "success"){
@@ -137,11 +140,14 @@
     curId = create_UUID();
   }
   function create(){
+    var selectBox = document.getElementById("items");
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
     let saveobj = {
       'pname': $("#cpname").val(),
       'race': $("#crace").val(),
       'guild': $("#cguild").val(),
-      'id': curId
+      'id': curId,
+      'item': selectedValue
     }
     $.post("/caleb/api.php/character/create/", saveobj, function(data, status){
       if(status == "success"){
@@ -166,13 +172,14 @@
         $("#rpname").text('Name: '+characters[idx].pname);
         $("#rrace").text('Race: '+characters[idx].race);
         $("#rguild").text('Class: '+characters[idx].guild);
-        var items = 'Items: ';
+        var items = '<label id="charItems">';
         $.each(data, function(index, item){
           if(item == null){
             return false;
           }
-          items += '<label>'+item.iname+' </label>';
+          items += '<label>'+item.iname+' </label> ';
         });
+        items += '</label>';
         $("#readCharacter").append(items);
         $('#readCharacter').show();
         $("#overlay").show();
@@ -441,7 +448,7 @@ function getSortedTable(idx = 0, cnt = 25){
        }
     });
   }
-</script>
+ </script>
 </head>
 <body>
   <button onclick="renderItemTable()">Items</button>
@@ -472,10 +479,10 @@ function getSortedTable(idx = 0, cnt = 25){
    
     <input type="text" id="guild">
     <select class="custom-select custom-select-lg" id="itemList" name="items">
-      <option value="null">Item</option>
+      <option value="null">Add Item</option>
     </select>
-    
-    <button onclick="closeEdit()">Close</button>
+
+      <button onclick="closeEdit()">Close</button>
     <button onclick="save()">Save</button>
     <label id="message"></label>
   </div>
@@ -492,7 +499,7 @@ function getSortedTable(idx = 0, cnt = 25){
    
     <input type="text" id="cguild">
     <select class="custom-select custom-select-lg" id="items" name="itemList">
-      <option value="null">Item</option>
+      <option value="null">Add Item</option>
     </select>
     
     <button onclick="closeEdit()">Close</button>
@@ -510,6 +517,7 @@ function getSortedTable(idx = 0, cnt = 25){
     <label id="rpname">asdf</label>
     <label id="rrace">fasd</label>
     <label id="rguild">fdsa</label>
+    <label>Items: </label>
   </div>
 </body>
 </html>
