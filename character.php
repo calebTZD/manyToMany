@@ -226,25 +226,25 @@ function read($id){
     return $items;
 }
 
-function getItemByid($ids){
-    $dbConn = getConnection();
-    $item = NULL;
-    $sql = "SELECT iname FROM items WHERE id =".$ids;
-    $result = $dbConn->query($sql);
-    $item = $result->fetch_assoc();
-    mysqli_close($dbConn);
-    return $item;
-}
+// function getItemByid($ids){
+//     $dbConn = getConnection();
+//     $item = NULL;
+//     $sql = "SELECT iname FROM items WHERE id =".$ids;
+//     $result = $dbConn->query($sql);
+//     $item = $result->fetch_assoc();
+//     mysqli_close($dbConn);
+//     return $item;
+// }
 
-function getItemByName($name){
-    $dbConn = getConnection();
-    $item = NULL;
-    $sql = "SELECT id FROM items WHERE iname =".$name;
-    $result = $dbConn->query($sql);
-    $item = $result->fetch_assoc();
-    mysqli_close($dbConn);
-    return $item;
-}
+// function getItemByName($name){
+//     $dbConn = getConnection();
+//     $item = NULL;
+//     $sql = "SELECT id FROM items WHERE iname =".$name;
+//     $result = $dbConn->query($sql);
+//     $item = $result->fetch_assoc();
+//     mysqli_close($dbConn);
+//     return $item;
+// }
 
 function insertIntoMtable($playerid, $itemid){
     $dbConn = getConnection();

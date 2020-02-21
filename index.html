@@ -55,15 +55,10 @@
     $("#guild").val(character.guild);
     curId = character.id
     $.post("/caleb/api.php/item/readItems", function(data, status){
-      if(status == "sucess"){
-        var options = '';
+      if(status == "success"){
         $.each(JSON.parse(data), function(index, item){
-          // options +='<option value="'+item.iname+'">'+item.iname+'</option>';
-          $('#itemList').append('<option value="'+item.iname+'">'+item.iname+'</option>');
+          $('#itemList').append('<option value="'+item.id+'">'+item.iname+'</option>');
         });
-        $('#itemList').hide().show();
-        // $('#itemList').append(options).selectpicker('refresh');
-      
       }
     });
   }
@@ -117,6 +112,7 @@
     });
   }
   function deleteItem(id){
+    
     $.getJSON("/caleb/api.php/item/delete/?id="+id, function(data, status){
       if(status == "success"){
         renderItemTable();
@@ -127,6 +123,13 @@
     $("#overlay").show();
     $("#createPerson").show();
     curId = create_UUID();
+    $.post("/caleb/api.php/item/readItems", function(data, status){
+      if(status == "success"){
+        $.each(JSON.parse(data), function(index, item){
+          $('#items').append('<option value="'+item.id+'">'+item.iname+'</option>');
+        });
+      }
+    });
   }
   function createItm(){
     $("#overlay").show();
@@ -421,6 +424,7 @@ function getSortedTable(idx = 0, cnt = 25){
         $('#buttonWrapper').hide();
         $('#create').hide();
         $('#ctab').html(rows);
+        $('#search').hide();
       }
     });
   }
@@ -487,6 +491,9 @@ function getSortedTable(idx = 0, cnt = 25){
     <input type="text" id="crace">
    
     <input type="text" id="cguild">
+    <select class="custom-select custom-select-lg" id="items" name="itemList">
+      <option value="null">Item</option>
+    </select>
     
     <button onclick="closeEdit()">Close</button>
     <button onclick="create()">Save</button>

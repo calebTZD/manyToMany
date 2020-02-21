@@ -5,7 +5,7 @@ function readItems(){
     $items = array();
     $dbConn = getConnection();
 
-    $sql = 'SELECT * FROM items';
+    $sql = 'SELECT * FROM items ORDER BY iname';
      // echo $sql;
     if (!$result = $dbConn->query($sql)) {
         // TODO: remove error printing
