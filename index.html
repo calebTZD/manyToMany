@@ -172,15 +172,14 @@
         $("#rpname").text('Name: '+characters[idx].pname);
         $("#rrace").text('Race: '+characters[idx].race);
         $("#rguild").text('Class: '+characters[idx].guild);
-        var items = '<label id="charItems">';
+        var items;
         $.each(data, function(index, item){
           if(item == null){
             return false;
           }
-          items += '<label>'+item.iname+' </label> ';
+          items += '<label>'+item.iname+', </label> ';
         });
-        items += '</label>';
-        $("#readCharacter").append(items);
+        $("#charItms").append(items);
         $('#readCharacter').show();
         $("#overlay").show();
       }
@@ -451,14 +450,17 @@ function getSortedTable(idx = 0, cnt = 25){
  </script>
 </head>
 <body>
-  <button onclick="renderItemTable()">Items</button>
-  <button onclick="renderTable(index, count)">Characters</button>
-  <div id="search">
-    <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
-  </div>
-  <table id="ctab" style="width:100%">
-    
+  <div id="head-wrap">
+    <button onclick="renderItemTable()">Items</button>
+    <button onclick="renderTable(index, count)">Characters</button>
+    <div id="search">
+      <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
+    </div>
+    </div>
+
+  <table id="ctab" style="width:100%" class="table table-striped">
   </table>
+
   <div id="create">
     <button onclick="createCharacter()">Create character</button>
   </div>
@@ -470,8 +472,10 @@ function getSortedTable(idx = 0, cnt = 25){
     <label id="itemNumbers"></label>
     <button type="button" onclick="next()" id="next">Next</button> 
   </div>
+
   <div id="overlay">
   </div>
+  
   <div id="edit">
     <input type="text" id="pname">
     
@@ -486,38 +490,47 @@ function getSortedTable(idx = 0, cnt = 25){
     <button onclick="save()">Save</button>
     <label id="message"></label>
   </div>
+
   <div id="editItem">
     <input type="text" id="iname">
     <button onclick="closeEdit()">Close</button>
     <button onclick="saveItem()">Save</button>
     <label id="imessage"></label>
   </div>
+
   <div id="createPerson">
-    <input type="text" id="cpname">
-    
-    <input type="text" id="crace">
-   
-    <input type="text" id="cguild">
+    <div class="d-flex flex-column">
+      <label>Name</label>
+      <input type="text" id="cpname">
+
+      <label>Race</label>
+      <input type="text" id="crace">
+
+      <label>Class</label>
+      <input type="text" id="cguild">
+  </div>  
     <select class="custom-select custom-select-lg" id="items" name="itemList">
-      <option value="null">Add Item</option>
+      <option value="null">Starting Item</option>
     </select>
-    
-    <button onclick="closeEdit()">Close</button>
+        <button onclick="closeEdit()">Close</button>
     <button onclick="create()">Save</button>
     <label id="message"></label>
   </div>
+
   <div id="createItm">
     <input type="text" id="ciname">
     <button onclick="closeEdit()">Close</button>
     <button onclick="createItem()">Save</button>
     <label id="imessage"></label>
   </div>
+
   <div id="readCharacter">
-    <button onclick="closeEdit()">Close</button>
-    <label id="rpname">asdf</label>
-    <label id="rrace">fasd</label>
-    <label id="rguild">fdsa</label>
-    <label>Items: </label>
+    
+    <label id="rpname"></label>
+    <label id="rrace"></label>
+    <label id="rguild"></label>
+    <label id="charItms">Items: </label>
+    <button type="button" class="btn" onclick="closeEdit()">Close</button>
   </div>
 </body>
 </html>
