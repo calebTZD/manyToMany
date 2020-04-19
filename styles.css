@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(61, 173, 61) !important;
+    color: darkgray !important;
+}
 #buttonWrapper{
     display: flex;
     justify-content: center;
@@ -140,4 +144,19 @@
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+#headWrap{
+    display: flex;
+    justify-content: center;
+}
+#switchWrap{
+    border: 0px;
+}
+#itemNumbers{
+    padding: 5px;
+}
+.btn{
+    border: 2px !important;
+    border-color: blue !important;
+    
 }

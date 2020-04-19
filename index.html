@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="edit.js"></script>
+  <script src="sort.js"></script>
+
 <script>
   
   const count = 25;
@@ -46,67 +49,7 @@
       return uuid;
   }
 
-  function renderEdit(editIdx){
-    $("#overlay").show();
-    $("#edit").show();
-    var character = characters[editIdx];
-    $("#pname").val(character.pname);
-    $("#race").val(character.race);
-    $("#guild").val(character.guild);
-    curId = character.id
-    $.post("/caleb/api.php/item/readItems", function(data, status){
-      if(status == "success"){
-        $.each(JSON.parse(data), function(index, item){
-          $('#itemList').append('<option value="'+item.id+'">'+item.iname+'</option>');
-        });
-      }
-    });
-  }
-  function renderItemEdit(ieditIdx){
-    $("#overlay").show();
-    $("#editItem").show();
-    var item = items[ieditIdx];
-    $("#iname").val(item.iname);
-    curId = item.id;
-  }
-  function closeEdit(){
-    $("#overlay").hide();
-    $("#edit").hide();
-    $("#editItem").hide();
-    $("#createPerson").hide();
-    $("#createItm").hide();
-    $("#readCharacter").hide();
-    $('#charItems').remove();
-  }
-  function save(){
-    var selectBox = document.getElementById("itemList");
-    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-    let saveobj = {
-      'pname': $("#pname").val(),
-      'race': $("#race").val(),
-      'guild': $("#guild").val(),
-      'id': curId,
-      'item': selectedValue
-    }
-    $.post("/caleb/api.php/character/update/", saveobj, function(data, status){
-      if(status == "success"){
-        $("#message").val("Saved");
-        renderTable(index, count);
-        closeEdit();
-      }
-    });
-  }
-  function saveItem(){
-
-    $.getJSON("/caleb/api.php/item/update/?iname="+$("#iname").val()+"&id="+curId, function(data, status){
-      if(status == "success"){
-        $("#imessage").val("Saved");
-        renderItemTable();
-        closeEdit();
-      }
-    });
-  }
-
+  
   function deleteCharacter(id){
     $.getJSON("/caleb/api.php/character/delete/?id="+id, function(data,status){
       if(status == "success"){
@@ -122,282 +65,15 @@
       }
     });
   }
-  function createCharacter(){
-    $("#overlay").show();
-    $("#createPerson").show();
-    curId = create_UUID();
-    $.post("/caleb/api.php/item/readItems", function(data, status){
-      if(status == "success"){
-        $.each(JSON.parse(data), function(index, item){
-          $('#items').append('<option value="'+item.id+'">'+item.iname+'</option>');
-        });
-      }
-    });
-  }
-  function createItm(){
-    $("#overlay").show();
-    $("#createItm").show();
-    curId = create_UUID();
-  }
-  function create(){
-    var selectBox = document.getElementById("items");
-    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-    let saveobj = {
-      'pname': $("#cpname").val(),
-      'race': $("#crace").val(),
-      'guild': $("#cguild").val(),
-      'id': curId,
-      'item': selectedValue
-    }
-    $.post("/caleb/api.php/character/create/", saveobj, function(data, status){
-      if(status == "success"){
-        $("#message").val("Saved");
-        renderTable(index, count);
-        closeEdit();
-      }
-    });
-  }
-  function createItem(){
-    $.getJSON("/caleb/api.php/item/create/?iname="+$("#ciname").val()+"&id="+curId, function(data, status){
-      if(status == "success"){
-        $("#imessage").val("Saved");
-        renderItemTable();
-        closeEdit();
-      }
-    });
-  }
-  function readCharacter(idx ,id){
-    $.getJSON("/caleb/api.php/character/read/?id="+id, function(data,status){
-      if(status == "success"){
-        $("#rpname").text('Name: '+characters[idx].pname);
-        $("#rrace").text('Race: '+characters[idx].race);
-        $("#rguild").text('Class: '+characters[idx].guild);
-        var items;
-        $.each(data, function(index, item){
-          if(item == null){
-            return false;
-          }
-          items += '<label>'+item.iname+', </label> ';
-        });
-        $("#charItms").append(items);
-        $('#readCharacter').show();
-        $("#overlay").show();
-      }
-    });
-  }
-
-  function sortByName(){
-    index = 0;
-    if(sortedByName == true){
-      sortedByName = false;
-      sortedByRace = false;
-      sortedByClass = false;
-      nameDown = true;
-      raceDown = false;
-      classDown = false;
-      getSortedTable()
-    }
-    else{
-      sortedByName = true;
-      sortedByRace = false;
-      sortedByClass = false;
-      nameDown = true;
-      raceDown = false;
-      classDown = false;
-      getSortedTable();
-    }
-  }
-  function sortByRace(idx=0, cnt=25){
-    index = 0;
-    if(sortedByRace == true){
-      sortedByName = false;
-      sortedByRace = false;
-      sortedByClass = false;
-      nameDown = false;
-      raceDown = true;
-      classDown = false;
-      getSortedTable();
-    }
-    else{
-      sortedByName = false;
-      sortedByRace = true;
-      sortedByClass = false;
-      nameDown = false;
-      raceDown = false;
-      classDown = false;
-      getSortedTable();
-    }
-  }
-  
-  function sortByClass(idx=0, cnt=25){
-    index = 0;
-    if(sortedByClass == true){
-      sortedByName = false;
-      sortedByRace = false;
-      sortedByClass = false;
-      nameDown = false;
-      raceDown = false;
-      classDown = true;
-      getSortedTable();
-    }
-    else{
-      sortedByName = false;
-      sortedByRace = false;
-      sortedByClass = true;
-      nameDown = false;
-      raceDown = false;
-      classDown = false;
-      getSortedTable();
-    }
-  }
-  
-function getSortedTable(idx = 0, cnt = 25){
-  if(sortedByName == true){
-    renderTable(idx,cnt);
-  }
-  else if(nameDown == true){
-    $.getJSON("/caleb/api.php/character/sortCharDown/?idx="+idx+"&cnt="+ cnt , function(data, status){
-          if (status == "success"){
-            characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
-              $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-              });
-              $('#ctab').html(rows);
-              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-              $('#buttonWrapper').show();
-              $('#create').show();
-              $('#createItem').hide();
-              $('#editItem').hide();
-              $('#createPerson').hide();
-              $('#createItm').hide();
-              $('#readCharacter').hide();
-              $('#charUp').hide();
-              $('#charDown').show();
-              $('#raceUp').hide();
-              $('#raceDown').hide();
-              $('#classUp').hide();
-              $('#classDown').hide();
-          }
-      });
-
-  }
-  else if(raceDown == true){
-    $.getJSON("/caleb/api.php/character/sortRaceDown/?idx="+idx+"&cnt="+ cnt , function(data, status){
-          if (status == "success"){
-            characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
-              $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-              });
-              $('#ctab').html(rows);
-              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-              $('#buttonWrapper').show();
-              $('#create').show();
-              $('#createItem').hide();
-              $('#editItem').hide();
-              $('#createPerson').hide();
-              $('#createItm').hide();
-              $('#readCharacter').hide();
-              $("#charUp").hide();
-              $("#charDown").hide();
-              $("#raceUp").hide();
-              $("#raceDown").show();
-              $("#classUp").hide();
-              $("#classDown").hide();
-          }
-      });
-   
-  }
-  else if(sortedByRace == true){
-    $.getJSON("/caleb/api.php/character/sortRaceUp/?idx="+idx+"&cnt="+ cnt , function(data, status){
-          if (status == "success"){
-            characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
-              $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-              });
-              $('#ctab').html(rows);
-              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-              $('#buttonWrapper').show();
-              $('#create').show();
-              $('#createItem').hide();
-              $('#editItem').hide();
-              $('#createPerson').hide();
-              $('#createItm').hide();
-              $('#readCharacter').hide();
-              $("#charUp").hide();
-              $("#charDown").hide();
-              $("#raceUp").show();
-              $("#raceDown").hide();
-              $("#classUp").hide();
-              $("#classDown").hide();
-          }
-      });
-
-  }
-  else if(sortedByClass == true){
-    $.getJSON("/caleb/api.php/character/sortClassUp/?idx="+idx+"&cnt="+ cnt , function(data, status){
-          if (status == "success"){
-            characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
-              $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-              });
-              $('#ctab').html(rows);
-              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-              $('#buttonWrapper').show();
-              $('#create').show();
-              $('#createItem').hide();
-              $('#editItem').hide();
-              $('#createPerson').hide();
-              $('#createItm').hide();
-              $('#readCharacter').hide();
-              $("#charUp").hide();
-              $("#charDown").hide();
-              $("#raceUp").hide();
-              $("#raceDown").hide();
-              $("#classUp").show();
-              $("#classDown").hide();
-          }
-      });
-  }
-  else if(classDown == true){
-    $.getJSON("/caleb/api.php/character/sortClassDown/?idx="+idx+"&cnt="+ cnt , function(data, status){
-          if (status == "success"){
-            characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
-              $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-              });
-              $('#ctab').html(rows);
-              $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-              $('#buttonWrapper').show();
-              $('#create').show();
-              $('#createItem').hide();
-              $('#editItem').hide();
-              $('#createPerson').hide();
-              $('#createItm').hide();
-              $('#readCharacter').hide();
-              $("#charUp").hide();
-              $("#charDown").hide();
-              $("#raceUp").hide();
-              $("#raceDown").hide();
-              $("#classUp").hide();
-              $("#classDown").show();
-          }
-      });
-  }
-}
 
   function renderTable(idx, cnt){
         
     $.getJSON("/caleb/api.php/character/readCharacters/?idx="+idx+"&cnt="+ cnt , function(data, status){
           if (status == "success"){
             characters = data;
-              var rows = '<tr><th><button onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
+              var rows = '<tr><th><button type="button" class="btn" onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button class="btn" onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button class="btn"  onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th><th></th><th></th></tr>';
               $.each (data, function(index, item){
-                rows += '<tr><td><button onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
+                rows += '<tr><td><button type="button" class="btn" onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')" class="btn">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')" class="btn">delete</button></td></tr>';
               });
               $('#ctab').html(rows);
               $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
@@ -413,10 +89,9 @@ function getSortedTable(idx = 0, cnt = 25){
               $('#raceDown').hide();
               $('#classUp').hide();
               $('#classDown').hide();
+              $('#search').show();
           }
-      });
-
-      
+      });    
     }
   function renderItemTable(){
     $.getJSON("/caleb/api.php/item/readItems" , function(data,status){
@@ -424,7 +99,7 @@ function getSortedTable(idx = 0, cnt = 25){
         items = data;
         var rows = '<tr><th>Items</th></tr>';
         $.each (data, function(index, item){
-          rows += '<tr><td>' + item.iname +'</td><td><button onclick="renderItemEdit('+ index +')">Edit</button></td><td><button onclick="deleteItem('+ item.id +')">delete</button></td></tr>';
+          rows += '<tr><td>' + item.iname +'</td><td><button onclick="renderItemEdit('+ index +')" class="btn">Edit</button></td><td><button onclick="deleteItem('+ item.id +')" class="btn">delete</button></td></tr>';
         });
         $('#createItem').show();
         $('#buttonWrapper').hide();
@@ -434,43 +109,33 @@ function getSortedTable(idx = 0, cnt = 25){
       }
     });
   }
-  function renderSearchTable(idx, cnt){
-    $.getJSON("/caleb/api.php/character/search/?idx="+idx+"&cnt="+cnt+"&pstr="+$('#searchbar').val() , function(data, status){
-        if (status == "success"){
-          characters = data;
-          var rows = '<tr><th>Name</th><th>Race</th><th>Class</th><th>Edit</th></tr>';
-          $.each (data, function(index, item){
-          rows += '<tr><td>' + item.pname + '</td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')">delete</button></td></tr>';
-        });
-        $('#ctab').html(rows);
-        $('#itemNumbers').html((idx+1) + '-' + (idx + cnt));
-       }
-    });
-  }
+
  </script>
 </head>
 <body>
-  <div id="head-wrap">
-    <button onclick="renderItemTable()">Items</button>
-    <button onclick="renderTable(index, count)">Characters</button>
+  <div class="d-flex flex-column justify-content-center">
+    <div class="d-flex justify-content-center">
+      <button onclick="renderTable(index, count)" class="btn">Characters</button>
+      <button onclick="renderItemTable()" class="btn">Items</button>
+    </div>
+    <div id="create" class="d-flex justify-content-center">
+      <button onclick="createCharacter()" class="btn">Create character</button>
+    
+      <button onclick="createItm()" class="btn">Create Item</button>
+    </div>
+  </div>
     <div id="search">
       <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
     </div>
-    </div>
+    
 
   <table id="ctab" style="width:100%" class="table table-striped">
   </table>
 
-  <div id="create">
-    <button onclick="createCharacter()">Create character</button>
-  </div>
-  <div id="createItem">
-    <button onclick="createItm()">Create Item</button>
-  </div>
   <div id="buttonWrapper">
-    <button type="button" onclick="previous()" id="prev">Previous</button>
+    <button type="button" onclick="previous()" class="btn">Previous</button>
     <label id="itemNumbers"></label>
-    <button type="button" onclick="next()" id="next">Next</button> 
+    <button type="button" onclick="next()" class="btn">Next</button> 
   </div>
 
   <div id="overlay">
@@ -525,11 +190,23 @@ function getSortedTable(idx = 0, cnt = 25){
   </div>
 
   <div id="readCharacter">
-    
-    <label id="rpname"></label>
-    <label id="rrace"></label>
-    <label id="rguild"></label>
-    <label id="charItms">Items: </label>
+    <div class="container">
+      <div class="d-flex flex-row">
+      <div class="d-flex flex-column">
+        <div class="p-2 border">Name: </div>
+        <div class="p-2 border">Race: </div>
+        <div class="p-2 border">Class: </div>
+        <div class="p-2 w-60 border">Items: </div>
+        
+      </div>
+      <div class="d-flex flex-column justify-content-start">
+        <div class="p-2 border" id="rpname"></div>
+        <div class="p-2" id="rrace"></div>
+        <div class="p-2" id="rguild"></div>
+        <div class="p-2 " id="charItms"></div>
+      </div> 
+    </div>     
+    </div>
     <button type="button" class="btn" onclick="closeEdit()">Close</button>
   </div>
 </body>
