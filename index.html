@@ -97,7 +97,7 @@
     $.getJSON("/caleb/api.php/item/readItems" , function(data,status){
       if(status == "success"){
         items = data;
-        var rows = '<tr><th>Items</th></tr>';
+        var rows = '<tr><th>Items</th><th></th><th></th></tr>';
         $.each (data, function(index, item){
           rows += '<tr><td>' + item.iname +'</td><td><button onclick="renderItemEdit('+ index +')" class="btn">Edit</button></td><td><button onclick="deleteItem('+ item.id +')" class="btn">delete</button></td></tr>';
         });
@@ -125,6 +125,7 @@
     </div>
   </div>
     <div id="search">
+      Search: 
       <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
     </div>
     
@@ -141,55 +142,55 @@
   <div id="overlay">
   </div>
   
-  <div id="edit">
-    <input type="text" id="pname">
+  <div id="edit" class="edit">
+    <input type="text" id="pname" class="label">
     
-    <input type="text" id="race">
+    <input type="text" id="race" class="label">
    
-    <input type="text" id="guild">
-    <select class="custom-select custom-select-lg" id="itemList" name="items">
+    <input type="text" id="guild" class="label">
+    <select class="custom-select custom-select-lg" id="itemList" name="items" >
       <option value="null">Add Item</option>
     </select>
 
-      <button onclick="closeEdit()">Close</button>
-    <button onclick="save()">Save</button>
+      <button onclick="closeEdit()" class="btn">Close</button>
+    <button onclick="save()" class="btn">Save</button>
     <label id="message"></label>
   </div>
 
-  <div id="editItem">
-    <input type="text" id="iname">
-    <button onclick="closeEdit()">Close</button>
-    <button onclick="saveItem()">Save</button>
+  <div id="editItem" class="edit" class="label">
+    <input type="text" id="iname" class="label">
+    <button onclick="closeEdit()" class="btn">Close</button>
+    <button onclick="saveItem()" class="btn">Save</button>
     <label id="imessage"></label>
   </div>
 
-  <div id="createPerson">
+  <div id="createPerson" class="edit">
     <div class="d-flex flex-column">
       <label>Name</label>
-      <input type="text" id="cpname">
+      <input type="text" id="cpname" class="label">
 
       <label>Race</label>
-      <input type="text" id="crace">
+      <input type="text" id="crace" class="label">
 
       <label>Class</label>
-      <input type="text" id="cguild">
+      <input type="text" id="cguild" class="label">
   </div>  
     <select class="custom-select custom-select-lg" id="items" name="itemList">
       <option value="null">Starting Item</option>
     </select>
-        <button onclick="closeEdit()">Close</button>
-    <button onclick="create()">Save</button>
+        <button onclick="closeEdit()" class="btn">Close</button>
+    <button onclick="create()" class="btn">Save</button>
     <label id="message"></label>
   </div>
 
-  <div id="createItm">
-    <input type="text" id="ciname">
-    <button onclick="closeEdit()">Close</button>
-    <button onclick="createItem()">Save</button>
+  <div id="createItm" class="edit">
+    <input type="text" id="ciname" class="label">
+    <button onclick="closeEdit()" class="btn">Close</button>
+    <button onclick="createItem()" class="btn">Save</button>
     <label id="imessage"></label>
   </div>
 
-  <div id="readCharacter">
+  <div id="readCharacter" class="edit">
     <div class="container">
       <div class="d-flex flex-row">
       <div class="d-flex flex-column">
@@ -200,14 +201,14 @@
         
       </div>
       <div class="d-flex flex-column justify-content-start">
-        <div class="p-2 border" id="rpname"></div>
-        <div class="p-2" id="rrace"></div>
-        <div class="p-2" id="rguild"></div>
-        <div class="p-2 " id="charItms"></div>
+        <div class="p-2 border" id="rpname" class="label"></div>
+        <div class="p-2 border" id="rrace" class="label"></div>
+        <div class="p-2 border" id="rguild" class="label"></div>
+        <div class="p-2 border" id="charItms" class="label"></div>
       </div> 
     </div>     
     </div>
-    <button type="button" class="btn" onclick="closeEdit()">Close</button>
+    <button type="button" class="btn" onclick="closeEdit()" class="btn">Close</button>
   </div>
 </body>
 </html>

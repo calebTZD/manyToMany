@@ -68,7 +68,7 @@ function sortByName(){
     $.getJSON("/caleb/api.php/character/search/?idx="+idx+"&cnt="+cnt+"&pstr="+$('#searchbar').val() , function(data, status){
         if (status == "success"){
           characters = data;
-          var rows = '<tr><th><button type="button" class="btn" onclick="sortByName()">Name</button><div id="charUp"></div><div id="charDown"></div></th><th><button class="btn" onclick="sortByRace()">Race</button><div id="raceUp"></div><div id="raceDown"></div></th><th><button class="btn"  onclick="sortByClass()">Class</button><div id="classUp"></div><div id="classDown"></div></th></tr>';
+          var rows = '<tr><th><button type="button" class="btn" onclick="sortByName()">Name</button></th><th><button class="btn" onclick="sortByRace()">Race</button></th><th><button class="btn"  onclick="sortByClass()">Class</button></th><th></th><th></th></tr>';
           $.each (data, function(index, item){
             rows += '<tr><td><button type="button" class="btn" onclick="readCharacter('+index+','+item.id+')">' + item.pname + '</button></td><td>' + item.race + '</td><td>' + item.guild + '</td><td><button onclick="renderEdit('+ index +')" class="btn">Edit</button></td><td><button onclick="deleteCharacter('+ item.id +')" class="btn">delete</button></td></tr>';
           });

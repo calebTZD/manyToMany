@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(61, 173, 61) !important;
-    color: darkgray !important;
+    background-color: green !important;
+    color: lightgray !important;
 }
 #buttonWrapper{
     display: flex;
@@ -156,7 +156,34 @@ body{
     padding: 5px;
 }
 .btn{
-    border: 2px !important;
-    border-color: blue !important;
-    
+    border: 1px solid !important;
+    border-color: lightseagreen !important;
+    color: lightgray !important;
+}
+.table{
+    color: lightgray !important;
+}
+#searchbar{
+background-color: lightseagreen;
+border-color: lightseagreen;
+margin: 3px;
+}
+.edit{
+    background-color: green !important;
+    color: lightgray;
+}
+.label{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    margin: 3px;
+}
+#items{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    margin: 3px;
+}
+#itemList{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    margin: 3px;
 }
