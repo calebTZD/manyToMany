@@ -1,4 +1,4 @@
-
+// functionality for sorting the table by different catagories, both alphabetical and reverse alphbetecal order.
 function sortByName(){
     index = 0;
     if(sortedByName == true){
@@ -20,6 +20,7 @@ function sortByName(){
       getSortedTable();
     }
   }
+
   function sortByRace(idx=0, cnt=25){
     index = 0;
     if(sortedByRace == true){

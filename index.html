@@ -25,19 +25,21 @@
   var raceDown = false;
   var classDown = false;
 
+// renders the inital table
   renderTable(index, count);
 
+// functionality for the pagination
   function next(){
       index += count;
       getSortedTable(index, count);
   }
-
   function previous(){
       index -= count;
       if(index < 0){index = 0;}
       getSortedTable(index, count);
   }
 
+// creates a unique id for a person in the database
   function create_UUID(){
       var dt = new Date().getTime();
       var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -48,7 +50,6 @@
       uuid = uuid.replace("-","3");
       return uuid;
   }
-
   
   function deleteCharacter(id){
     $.getJSON("/caleb/api.php/character/delete/?id="+id, function(data,status){
@@ -66,6 +67,7 @@
     });
   }
 
+// renders the character table sorted by name
   function renderTable(idx, cnt){
         
     $.getJSON("/caleb/api.php/character/readCharacters/?idx="+idx+"&cnt="+ cnt , function(data, status){
@@ -93,6 +95,8 @@
           }
       });    
     }
+    
+  
   function renderItemTable(){
     $.getJSON("/caleb/api.php/item/readItems" , function(data,status){
       if(status == "success"){
@@ -113,6 +117,7 @@
  </script>
 </head>
 <body>
+<!-- Nav bar container -->
   <div class="d-flex flex-column justify-content-center">
     <div class="d-flex justify-content-center">
       <button onclick="renderTable(index, count)" class="btn">Characters</button>
@@ -129,7 +134,7 @@
       <input type="text" id="searchbar" onkeyup="renderSearchTable(index, count)">
     </div>
     
-
+<!-- body of the web page -->
   <table id="ctab" style="width:100%" class="table table-striped">
   </table>
 
@@ -139,9 +144,11 @@
     <button type="button" onclick="next()" class="btn">Next</button> 
   </div>
 
+<!-- Overlay for when you edit view or create a character or item -->
   <div id="overlay">
   </div>
   
+<!-- edit character menu -->
   <div id="edit" class="edit">
     <input type="text" id="pname" class="label">
     
@@ -157,6 +164,8 @@
     <label id="message"></label>
   </div>
 
+<!-- edit item menu -->
+
   <div id="editItem" class="edit" class="label">
     <input type="text" id="iname" class="label">
     <button onclick="closeEdit()" class="btn">Close</button>
@@ -164,6 +173,7 @@
     <label id="imessage"></label>
   </div>
 
+  <!-- New character menu -->
   <div id="createPerson" class="edit">
     <div class="d-flex flex-column">
       <label>Name</label>
@@ -183,6 +193,8 @@
     <label id="message"></label>
   </div>
 
+<!-- New item menu -->
+
   <div id="createItm" class="edit">
     <input type="text" id="ciname" class="label">
     <button onclick="closeEdit()" class="btn">Close</button>
@@ -190,6 +202,7 @@
     <label id="imessage"></label>
   </div>
 
+<!-- view character meny -->
   <div id="readCharacter" class="edit">
     <div class="container">
       <div class="d-flex flex-row">

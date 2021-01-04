@@ -1,4 +1,7 @@
 <?php
+
+// item CRUD functionality
+
 require __DIR__ . '/data.php';
 
 function readItems(){
@@ -23,6 +26,7 @@ function readItems(){
     mysqli_close($dbConn);
     return $items;
 }
+
 function deleteItem($id){
     $dbConn = getConnection();
     $data = NULL;
@@ -36,6 +40,7 @@ function deleteItem($id){
     mysqli_close($dbConn);
     return $data;
 }
+
 function update($iname, $id){
     $dbConn = getConnection();
     $data = NULL;
@@ -47,6 +52,7 @@ function update($iname, $id){
     mysqli_close($dbConn);
     return $data;
 }
+
 function insert($iname, $id){
     $dbConn = getConnection();
     $data = NULL;

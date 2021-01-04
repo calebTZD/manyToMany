@@ -1,3 +1,4 @@
+// functionality for the menues to edit, view, or create characters or items
 function renderEdit(editIdx){
     $("#overlay").show();
     $("#edit").show();

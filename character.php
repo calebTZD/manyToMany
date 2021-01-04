@@ -1,4 +1,7 @@
 <?php
+
+// Character CRUD functionality
+
 require __DIR__ . '/data.php';
 
 function deleteCharacter($id){
@@ -12,6 +15,7 @@ function deleteCharacter($id){
     mysqli_close($dbConn);
     return $data;
 }
+
 function readCharacters($idx, $cnt) {
     $characters = array();
     $dbConn = getConnection();
@@ -179,6 +183,7 @@ function searchCharacters($idx, $cnt, $pstr) {
     mysqli_close($dbConn);
     return $characters;
 }
+
 function update($pname, $race, $guild, $id){
     $dbConn = getConnection();
     $data = NULL;
@@ -191,6 +196,7 @@ function update($pname, $race, $guild, $id){
     mysqli_close($dbConn);
     return $data;
 }
+
 function insert($pname, $race, $guild, $id){
     $dbConn = getConnection();
     $data = NULL;
@@ -203,6 +209,7 @@ function insert($pname, $race, $guild, $id){
     mysqli_close($dbConn);
     return $data;
 }
+
 function read($id){
     $dbConn = getConnection();
     $items = array();
@@ -225,26 +232,6 @@ function read($id){
     mysqli_close($dbConn);
     return $items;
 }
-
-// function getItemByid($ids){
-//     $dbConn = getConnection();
-//     $item = NULL;
-//     $sql = "SELECT iname FROM items WHERE id =".$ids;
-//     $result = $dbConn->query($sql);
-//     $item = $result->fetch_assoc();
-//     mysqli_close($dbConn);
-//     return $item;
-// }
-
-// function getItemByName($name){
-//     $dbConn = getConnection();
-//     $item = NULL;
-//     $sql = "SELECT id FROM items WHERE iname =".$name;
-//     $result = $dbConn->query($sql);
-//     $item = $result->fetch_assoc();
-//     mysqli_close($dbConn);
-//     return $item;
-// }
 
 function insertIntoMtable($playerid, $itemid){
     $dbConn = getConnection();
