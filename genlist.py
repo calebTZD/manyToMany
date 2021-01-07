@@ -19,7 +19,7 @@ for line in f:
             print(items[0].rstrip())
             names.append(items[0].rstrip())
     except:
-        pass
+        print("unable to add name")
 
 #fant names copied from http://www.angelfire.com/tx/afira/fantasymfull.html
 f = open("fantasy_names.txt", encoding="utf8")
@@ -33,7 +33,7 @@ for line in f:
             if len(items[2])>2:
                 names.append(items[2].rstrip())
     except:
-        pass
+        print("unable to add name")
 
 f.close()
 
